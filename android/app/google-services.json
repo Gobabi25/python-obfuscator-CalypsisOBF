@@ -1,0 +1,67 @@
+{
+  "project_info": {
+    "project_number": "139624460024",
+    "project_id": "gobabi-73124",
+    "storage_bucket": "gobabi-73124.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:139624460024:android:1bcd7077629610e898150d",
+        "android_client_info": {
+          "package_name": "com.gobabi.user"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCTSINhghyh6YA4taOfEx2t0lTFrMtstqk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:139624460024:android:6b51ec9e7842510f98150d",
+        "android_client_info": {
+          "package_name": "com.gobabidrive"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCTSINhghyh6YA4taOfEx2t0lTFrMtstqk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:139624460024:android:64b1f1ea44a606b198150d",
+        "android_client_info": {
+          "package_name": "com.terranutraespciale.gobabi"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCTSINhghyh6YA4taOfEx2t0lTFrMtstqk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

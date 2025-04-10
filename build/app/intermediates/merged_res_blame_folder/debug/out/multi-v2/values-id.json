@@ -1,0 +1,36 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.gobabidrive.app-mergeDebugResources-99:/values-id/values-id.xml",
+            "map": [
+                {
+                    "source": "/Users/macbookprom2/.gradle/caches/transforms-3/d4f317baf6dda83a9593407c6ff73e0d/transformed/jetified-ui-voice-2.16.0/res/values-id/values-id.xml",
+                    "from": {
+                        "startLines": "2,3",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,112",
+                        "endColumns": "56,59",
+                        "endOffsets": "107,167"
+                    },
+                    "to": {
+                        "startLines": "3,4",
+                        "startColumns": "4,4",
+                        "startOffsets": "120,177",
+                        "endColumns": "56,59",
+                        "endOffsets": "172,232"
+                    }
+                },
+                {
+                    "source": "/Users/macbookprom2/.gradle/caches/transforms-3/140ba385308e3ee0808205f48a0368d2/transformed/jetified-base-2.16.0/res/values-id/values-id.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "64",
+                        "endOffsets": "115"
+                    }
+                }
+            ]
+        }
+    ]
+}

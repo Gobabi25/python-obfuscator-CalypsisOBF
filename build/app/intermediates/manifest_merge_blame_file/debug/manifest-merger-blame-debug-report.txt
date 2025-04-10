@@ -1,0 +1,1475 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.gobabidrive"
+4    android:versionCode="32"
+5    android:versionName="2.0.4" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="23"
+9        android:targetSdkVersion="34" />
+10    <!--
+11         Flutter needs it to communicate with the running application
+12         to allow setting breakpoints, to provide hot reload, etc.
+13    -->
+14    <uses-permission android:name="android.permission.INTERNET" />
+14-->/Users/macbookprom2/Downloads/go_babi_ff_drive/android/app/src/main/AndroidManifest.xml:4:5-66
+14-->/Users/macbookprom2/Downloads/go_babi_ff_drive/android/app/src/main/AndroidManifest.xml:4:22-64
+15    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+15-->/Users/macbookprom2/Downloads/go_babi_ff_drive/android/app/src/main/AndroidManifest.xml:5:5-78
+15-->/Users/macbookprom2/Downloads/go_babi_ff_drive/android/app/src/main/AndroidManifest.xml:5:22-76
+16    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+16-->/Users/macbookprom2/Downloads/go_babi_ff_drive/android/app/src/main/AndroidManifest.xml:6:5-80
+16-->/Users/macbookprom2/Downloads/go_babi_ff_drive/android/app/src/main/AndroidManifest.xml:6:22-78
+17    <uses-permission android:name="android.permission.CAMERA" />
+17-->/Users/macbookprom2/Downloads/go_babi_ff_drive/android/app/src/main/AndroidManifest.xml:7:5-64
+17-->/Users/macbookprom2/Downloads/go_babi_ff_drive/android/app/src/main/AndroidManifest.xml:7:22-62
+18    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+18-->/Users/macbookprom2/Downloads/go_babi_ff_drive/android/app/src/main/AndroidManifest.xml:9:5-81
+18-->/Users/macbookprom2/Downloads/go_babi_ff_drive/android/app/src/main/AndroidManifest.xml:9:22-78
+19    <uses-permission
+19-->/Users/macbookprom2/Downloads/go_babi_ff_drive/android/app/src/main/AndroidManifest.xml:10:5-80
+20        android:name="android.permission.READ_EXTERNAL_STORAGE"
+20-->/Users/macbookprom2/Downloads/go_babi_ff_drive/android/app/src/main/AndroidManifest.xml:10:22-77
+21        android:maxSdkVersion="32" />
+21-->[:file_picker] /Users/macbookprom2/Downloads/go_babi_ff_drive/build/file_picker/intermediates/merged_manifest/debug/AndroidManifest.xml:11:9-35
+22    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+22-->/Users/macbookprom2/Downloads/go_babi_ff_drive/android/app/src/main/AndroidManifest.xml:11:5-81
+22-->/Users/macbookprom2/Downloads/go_babi_ff_drive/android/app/src/main/AndroidManifest.xml:11:22-78
+23    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+23-->/Users/macbookprom2/Downloads/go_babi_ff_drive/android/app/src/main/AndroidManifest.xml:12:5-78
+23-->/Users/macbookprom2/Downloads/go_babi_ff_drive/android/app/src/main/AndroidManifest.xml:12:22-75
+24    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+24-->/Users/macbookprom2/Downloads/go_babi_ff_drive/android/app/src/main/AndroidManifest.xml:13:5-77
+24-->/Users/macbookprom2/Downloads/go_babi_ff_drive/android/app/src/main/AndroidManifest.xml:13:22-74
+25    <uses-permission android:name="android.permission.ACCESS_BACKGROUND_LOCATION" />
+25-->/Users/macbookprom2/Downloads/go_babi_ff_drive/android/app/src/main/AndroidManifest.xml:14:5-84
+25-->/Users/macbookprom2/Downloads/go_babi_ff_drive/android/app/src/main/AndroidManifest.xml:14:22-82
+26    <uses-permission android:name="android.permission.SCHEDULE_EXACT_ALARM" />
+26-->/Users/macbookprom2/Downloads/go_babi_ff_drive/android/app/src/main/AndroidManifest.xml:15:5-78
+26-->/Users/macbookprom2/Downloads/go_babi_ff_drive/android/app/src/main/AndroidManifest.xml:15:22-76
+27    <uses-permission android:name="android.permission.WAKE_LOCK" />
+27-->/Users/macbookprom2/Downloads/go_babi_ff_drive/android/app/src/main/AndroidManifest.xml:16:5-68
+27-->/Users/macbookprom2/Downloads/go_babi_ff_drive/android/app/src/main/AndroidManifest.xml:16:22-65
+28    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" /> <!-- foregroundServiceType: dataSync -->
+28-->/Users/macbookprom2/Downloads/go_babi_ff_drive/android/app/src/main/AndroidManifest.xml:17:5-77
+28-->/Users/macbookprom2/Downloads/go_babi_ff_drive/android/app/src/main/AndroidManifest.xml:17:22-74
+29    <uses-permission android:name="android.permission.FOREGROUND_SERVICE_DATA_SYNC" /> <!-- foregroundServiceType: remoteMessaging -->
+29-->/Users/macbookprom2/Downloads/go_babi_ff_drive/android/app/src/main/AndroidManifest.xml:19:1-83
+29-->/Users/macbookprom2/Downloads/go_babi_ff_drive/android/app/src/main/AndroidManifest.xml:19:18-80
+30    <uses-permission android:name="android.permission.FOREGROUND_SERVICE_REMOTE_MESSAGING" />
+30-->/Users/macbookprom2/Downloads/go_babi_ff_drive/android/app/src/main/AndroidManifest.xml:22:1-90
+30-->/Users/macbookprom2/Downloads/go_babi_ff_drive/android/app/src/main/AndroidManifest.xml:22:18-87
+31    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+31-->[:connectivity_plus] /Users/macbookprom2/Downloads/go_babi_ff_drive/build/connectivity_plus/intermediates/merged_manifest/debug/AndroidManifest.xml:9:5-79
+31-->[:connectivity_plus] /Users/macbookprom2/Downloads/go_babi_ff_drive/build/connectivity_plus/intermediates/merged_manifest/debug/AndroidManifest.xml:9:22-76
+32
+33    <queries>
+33-->[:file_picker] /Users/macbookprom2/Downloads/go_babi_ff_drive/build/file_picker/intermediates/merged_manifest/debug/AndroidManifest.xml:13:5-19:15
+34        <intent>
+34-->[:file_picker] /Users/macbookprom2/Downloads/go_babi_ff_drive/build/file_picker/intermediates/merged_manifest/debug/AndroidManifest.xml:14:9-18:18
+35            <action android:name="android.intent.action.GET_CONTENT" />
+35-->[:file_picker] /Users/macbookprom2/Downloads/go_babi_ff_drive/build/file_picker/intermediates/merged_manifest/debug/AndroidManifest.xml:15:13-72
+35-->[:file_picker] /Users/macbookprom2/Downloads/go_babi_ff_drive/build/file_picker/intermediates/merged_manifest/debug/AndroidManifest.xml:15:21-69
+36
+37            <data android:mimeType="*/*" />
+37-->/Users/macbookprom2/Downloads/go_babi_ff_drive/android/app/src/main/AndroidManifest.xml:66:17-85
+38        </intent>
+39
+40        <package android:name="com.google.android.apps.maps" />
+40-->[:map_launcher] /Users/macbookprom2/Downloads/go_babi_ff_drive/build/map_launcher/intermediates/merged_manifest/debug/AndroidManifest.xml:10:9-64
+40-->[:map_launcher] /Users/macbookprom2/Downloads/go_babi_ff_drive/build/map_launcher/intermediates/merged_manifest/debug/AndroidManifest.xml:10:18-61
+41        <package android:name="com.google.android.apps.mapslite" />
+41-->[:map_launcher] /Users/macbookprom2/Downloads/go_babi_ff_drive/build/map_launcher/intermediates/merged_manifest/debug/AndroidManifest.xml:11:9-68
+41-->[:map_launcher] /Users/macbookprom2/Downloads/go_babi_ff_drive/build/map_launcher/intermediates/merged_manifest/debug/AndroidManifest.xml:11:18-65
+42        <package android:name="com.autonavi.minimap" />
+42-->[:map_launcher] /Users/macbookprom2/Downloads/go_babi_ff_drive/build/map_launcher/intermediates/merged_manifest/debug/AndroidManifest.xml:12:9-56
+42-->[:map_launcher] /Users/macbookprom2/Downloads/go_babi_ff_drive/build/map_launcher/intermediates/merged_manifest/debug/AndroidManifest.xml:12:18-53
+43        <package android:name="com.baidu.BaiduMap" />
+43-->[:map_launcher] /Users/macbookprom2/Downloads/go_babi_ff_drive/build/map_launcher/intermediates/merged_manifest/debug/AndroidManifest.xml:13:9-54
+43-->[:map_launcher] /Users/macbookprom2/Downloads/go_babi_ff_drive/build/map_launcher/intermediates/merged_manifest/debug/AndroidManifest.xml:13:18-51
+44        <package android:name="com.waze" />
+44-->[:map_launcher] /Users/macbookprom2/Downloads/go_babi_ff_drive/build/map_launcher/intermediates/merged_manifest/debug/AndroidManifest.xml:14:9-44
+44-->[:map_launcher] /Users/macbookprom2/Downloads/go_babi_ff_drive/build/map_launcher/intermediates/merged_manifest/debug/AndroidManifest.xml:14:18-41
+45        <package android:name="ru.yandex.yandexnavi" />
+45-->[:map_launcher] /Users/macbookprom2/Downloads/go_babi_ff_drive/build/map_launcher/intermediates/merged_manifest/debug/AndroidManifest.xml:15:9-56
+45-->[:map_launcher] /Users/macbookprom2/Downloads/go_babi_ff_drive/build/map_launcher/intermediates/merged_manifest/debug/AndroidManifest.xml:15:18-53
+46        <package android:name="ru.yandex.yandexmaps" />
+46-->[:map_launcher] /Users/macbookprom2/Downloads/go_babi_ff_drive/build/map_launcher/intermediates/merged_manifest/debug/AndroidManifest.xml:16:9-56
+46-->[:map_launcher] /Users/macbookprom2/Downloads/go_babi_ff_drive/build/map_launcher/intermediates/merged_manifest/debug/AndroidManifest.xml:16:18-53
+47        <package android:name="com.citymapper.app.release" />
+47-->[:map_launcher] /Users/macbookprom2/Downloads/go_babi_ff_drive/build/map_launcher/intermediates/merged_manifest/debug/AndroidManifest.xml:17:9-62
+47-->[:map_launcher] /Users/macbookprom2/Downloads/go_babi_ff_drive/build/map_launcher/intermediates/merged_manifest/debug/AndroidManifest.xml:17:18-59
+48        <package android:name="com.mapswithme.maps.pro" />
+48-->[:map_launcher] /Users/macbookprom2/Downloads/go_babi_ff_drive/build/map_launcher/intermediates/merged_manifest/debug/AndroidManifest.xml:18:9-59
+48-->[:map_launcher] /Users/macbookprom2/Downloads/go_babi_ff_drive/build/map_launcher/intermediates/merged_manifest/debug/AndroidManifest.xml:18:18-56
+49        <package android:name="net.osmand" />
+49-->[:map_launcher] /Users/macbookprom2/Downloads/go_babi_ff_drive/build/map_launcher/intermediates/merged_manifest/debug/AndroidManifest.xml:19:9-46
+49-->[:map_launcher] /Users/macbookprom2/Downloads/go_babi_ff_drive/build/map_launcher/intermediates/merged_manifest/debug/AndroidManifest.xml:19:18-43
+50        <package android:name="net.osmand.plus" />
+50-->[:map_launcher] /Users/macbookprom2/Downloads/go_babi_ff_drive/build/map_launcher/intermediates/merged_manifest/debug/AndroidManifest.xml:20:9-51
+50-->[:map_launcher] /Users/macbookprom2/Downloads/go_babi_ff_drive/build/map_launcher/intermediates/merged_manifest/debug/AndroidManifest.xml:20:18-48
+51        <package android:name="ru.dublgis.dgismobile" />
+51-->[:map_launcher] /Users/macbookprom2/Downloads/go_babi_ff_drive/build/map_launcher/intermediates/merged_manifest/debug/AndroidManifest.xml:21:9-57
+51-->[:map_launcher] /Users/macbookprom2/Downloads/go_babi_ff_drive/build/map_launcher/intermediates/merged_manifest/debug/AndroidManifest.xml:21:18-54
+52        <package android:name="com.tencent.map" />
+52-->[:map_launcher] /Users/macbookprom2/Downloads/go_babi_ff_drive/build/map_launcher/intermediates/merged_manifest/debug/AndroidManifest.xml:22:9-51
+52-->[:map_launcher] /Users/macbookprom2/Downloads/go_babi_ff_drive/build/map_launcher/intermediates/merged_manifest/debug/AndroidManifest.xml:22:18-48
+53        <package android:name="com.here.app.maps" />
+53-->[:map_launcher] /Users/macbookprom2/Downloads/go_babi_ff_drive/build/map_launcher/intermediates/merged_manifest/debug/AndroidManifest.xml:23:9-53
+53-->[:map_launcher] /Users/macbookprom2/Downloads/go_babi_ff_drive/build/map_launcher/intermediates/merged_manifest/debug/AndroidManifest.xml:23:18-50
+54        <package android:name="com.huawei.maps.app" />
+54-->[:map_launcher] /Users/macbookprom2/Downloads/go_babi_ff_drive/build/map_launcher/intermediates/merged_manifest/debug/AndroidManifest.xml:24:9-55
+54-->[:map_launcher] /Users/macbookprom2/Downloads/go_babi_ff_drive/build/map_launcher/intermediates/merged_manifest/debug/AndroidManifest.xml:24:18-52
+55        <package android:name="com.alk.copilot.mapviewer" />
+55-->[:map_launcher] /Users/macbookprom2/Downloads/go_babi_ff_drive/build/map_launcher/intermediates/merged_manifest/debug/AndroidManifest.xml:25:9-61
+55-->[:map_launcher] /Users/macbookprom2/Downloads/go_babi_ff_drive/build/map_launcher/intermediates/merged_manifest/debug/AndroidManifest.xml:25:18-58
+56        <package android:name="com.tomtom.gplay.navapp" />
+56-->[:map_launcher] /Users/macbookprom2/Downloads/go_babi_ff_drive/build/map_launcher/intermediates/merged_manifest/debug/AndroidManifest.xml:26:9-59
+56-->[:map_launcher] /Users/macbookprom2/Downloads/go_babi_ff_drive/build/map_launcher/intermediates/merged_manifest/debug/AndroidManifest.xml:26:18-56
+57        <package android:name="com.tomtom.gplay.navapp.gofleet" />
+57-->[:map_launcher] /Users/macbookprom2/Downloads/go_babi_ff_drive/build/map_launcher/intermediates/merged_manifest/debug/AndroidManifest.xml:27:9-67
+57-->[:map_launcher] /Users/macbookprom2/Downloads/go_babi_ff_drive/build/map_launcher/intermediates/merged_manifest/debug/AndroidManifest.xml:27:18-64
+58        <package android:name="com.sygic.truck" />
+58-->[:map_launcher] /Users/macbookprom2/Downloads/go_babi_ff_drive/build/map_launcher/intermediates/merged_manifest/debug/AndroidManifest.xml:28:9-51
+58-->[:map_launcher] /Users/macbookprom2/Downloads/go_babi_ff_drive/build/map_launcher/intermediates/merged_manifest/debug/AndroidManifest.xml:28:18-48
+59        <package android:name="nl.flitsmeister" />
+59-->[:map_launcher] /Users/macbookprom2/Downloads/go_babi_ff_drive/build/map_launcher/intermediates/merged_manifest/debug/AndroidManifest.xml:29:9-51
+59-->[:map_launcher] /Users/macbookprom2/Downloads/go_babi_ff_drive/build/map_launcher/intermediates/merged_manifest/debug/AndroidManifest.xml:29:18-48
+60        <package android:name="nl.flitsmeister.flux" />
+60-->[:map_launcher] /Users/macbookprom2/Downloads/go_babi_ff_drive/build/map_launcher/intermediates/merged_manifest/debug/AndroidManifest.xml:30:9-56
+60-->[:map_launcher] /Users/macbookprom2/Downloads/go_babi_ff_drive/build/map_launcher/intermediates/merged_manifest/debug/AndroidManifest.xml:30:18-53
+61        <package android:name="com.nhn.android.nmap" />
+61-->[:map_launcher] /Users/macbookprom2/Downloads/go_babi_ff_drive/build/map_launcher/intermediates/merged_manifest/debug/AndroidManifest.xml:31:9-56
+61-->[:map_launcher] /Users/macbookprom2/Downloads/go_babi_ff_drive/build/map_launcher/intermediates/merged_manifest/debug/AndroidManifest.xml:31:18-53
+62        <package android:name="net.daum.android.map" />
+62-->[:map_launcher] /Users/macbookprom2/Downloads/go_babi_ff_drive/build/map_launcher/intermediates/merged_manifest/debug/AndroidManifest.xml:32:9-56
+62-->[:map_launcher] /Users/macbookprom2/Downloads/go_babi_ff_drive/build/map_launcher/intermediates/merged_manifest/debug/AndroidManifest.xml:32:18-53
+63        <package android:name="com.skt.tmap.ku" />
+63-->[:map_launcher] /Users/macbookprom2/Downloads/go_babi_ff_drive/build/map_launcher/intermediates/merged_manifest/debug/AndroidManifest.xml:33:9-51
+63-->[:map_launcher] /Users/macbookprom2/Downloads/go_babi_ff_drive/build/map_launcher/intermediates/merged_manifest/debug/AndroidManifest.xml:33:18-48
+64        <package android:name="cz.seznam.mapy" />
+64-->[:map_launcher] /Users/macbookprom2/Downloads/go_babi_ff_drive/build/map_launcher/intermediates/merged_manifest/debug/AndroidManifest.xml:34:9-50
+64-->[:map_launcher] /Users/macbookprom2/Downloads/go_babi_ff_drive/build/map_launcher/intermediates/merged_manifest/debug/AndroidManifest.xml:34:18-47
+65
+66        <intent>
+66-->[androidx.media2:media2-session:1.2.1] /Users/macbookprom2/.gradle/caches/transforms-3/3457de0a23ace5273b4d0a8435b20d5f/transformed/jetified-media2-session-1.2.1/AndroidManifest.xml:25:9-27:18
+67            <action android:name="android.media.browse.MediaBrowserService" />
+67-->[androidx.media2:media2-session:1.2.1] /Users/macbookprom2/.gradle/caches/transforms-3/3457de0a23ace5273b4d0a8435b20d5f/transformed/jetified-media2-session-1.2.1/AndroidManifest.xml:26:13-79
+67-->[androidx.media2:media2-session:1.2.1] /Users/macbookprom2/.gradle/caches/transforms-3/3457de0a23ace5273b4d0a8435b20d5f/transformed/jetified-media2-session-1.2.1/AndroidManifest.xml:26:21-76
+68        </intent>
+69        <intent>
+69-->[androidx.media2:media2-session:1.2.1] /Users/macbookprom2/.gradle/caches/transforms-3/3457de0a23ace5273b4d0a8435b20d5f/transformed/jetified-media2-session-1.2.1/AndroidManifest.xml:28:9-30:18
+70            <action android:name="androidx.media2.session.MediaSessionService" />
+70-->[androidx.media2:media2-session:1.2.1] /Users/macbookprom2/.gradle/caches/transforms-3/3457de0a23ace5273b4d0a8435b20d5f/transformed/jetified-media2-session-1.2.1/AndroidManifest.xml:29:13-82
+70-->[androidx.media2:media2-session:1.2.1] /Users/macbookprom2/.gradle/caches/transforms-3/3457de0a23ace5273b4d0a8435b20d5f/transformed/jetified-media2-session-1.2.1/AndroidManifest.xml:29:21-79
+71        </intent>
+72        <intent>
+72-->[androidx.media2:media2-session:1.2.1] /Users/macbookprom2/.gradle/caches/transforms-3/3457de0a23ace5273b4d0a8435b20d5f/transformed/jetified-media2-session-1.2.1/AndroidManifest.xml:31:9-33:18
+73            <action android:name="androidx.media2.session.MediaLibraryService" />
+73-->[androidx.media2:media2-session:1.2.1] /Users/macbookprom2/.gradle/caches/transforms-3/3457de0a23ace5273b4d0a8435b20d5f/transformed/jetified-media2-session-1.2.1/AndroidManifest.xml:32:13-82
+73-->[androidx.media2:media2-session:1.2.1] /Users/macbookprom2/.gradle/caches/transforms-3/3457de0a23ace5273b4d0a8435b20d5f/transformed/jetified-media2-session-1.2.1/AndroidManifest.xml:32:21-79
+74        </intent>
+75    </queries>
+76
+77    <uses-permission android:name="android.permission.VIBRATE" /> <!-- Create a unique permission for your app and use it so only your app can receive your OneSignal messages. -->
+77-->[:flutter_local_notifications] /Users/macbookprom2/Downloads/go_babi_ff_drive/build/flutter_local_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:9:5-66
+77-->[:flutter_local_notifications] /Users/macbookprom2/Downloads/go_babi_ff_drive/build/flutter_local_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:9:22-63
+78    <permission
+78-->[com.onesignal:notifications:5.1.17] /Users/macbookprom2/.gradle/caches/transforms-3/580f7feaca18b0f636369a8ecd7ec883/transformed/jetified-notifications-5.1.17/AndroidManifest.xml:10:5-12:47
+79        android:name="com.gobabidrive.permission.C2D_MESSAGE"
+79-->[com.onesignal:notifications:5.1.17] /Users/macbookprom2/.gradle/caches/transforms-3/580f7feaca18b0f636369a8ecd7ec883/transformed/jetified-notifications-5.1.17/AndroidManifest.xml:11:9-63
+80        android:protectionLevel="signature" />
+80-->[com.onesignal:notifications:5.1.17] /Users/macbookprom2/.gradle/caches/transforms-3/580f7feaca18b0f636369a8ecd7ec883/transformed/jetified-notifications-5.1.17/AndroidManifest.xml:12:9-44
+81
+82    <uses-permission android:name="com.gobabidrive.permission.C2D_MESSAGE" /> <!-- c2dm RECEIVE are basic requirements for push messages through Google's FCM -->
+82-->[com.onesignal:notifications:5.1.17] /Users/macbookprom2/.gradle/caches/transforms-3/580f7feaca18b0f636369a8ecd7ec883/transformed/jetified-notifications-5.1.17/AndroidManifest.xml:14:5-79
+82-->[com.onesignal:notifications:5.1.17] /Users/macbookprom2/.gradle/caches/transforms-3/580f7feaca18b0f636369a8ecd7ec883/transformed/jetified-notifications-5.1.17/AndroidManifest.xml:14:22-76
+83    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" /> <!-- START: ShortcutBadger -->
+83-->[com.onesignal:notifications:5.1.17] /Users/macbookprom2/.gradle/caches/transforms-3/580f7feaca18b0f636369a8ecd7ec883/transformed/jetified-notifications-5.1.17/AndroidManifest.xml:19:5-82
+83-->[com.onesignal:notifications:5.1.17] /Users/macbookprom2/.gradle/caches/transforms-3/580f7feaca18b0f636369a8ecd7ec883/transformed/jetified-notifications-5.1.17/AndroidManifest.xml:19:22-79
+84    <!-- Samsung -->
+85    <uses-permission android:name="com.sec.android.provider.badge.permission.READ" />
+85-->[com.onesignal:notifications:5.1.17] /Users/macbookprom2/.gradle/caches/transforms-3/580f7feaca18b0f636369a8ecd7ec883/transformed/jetified-notifications-5.1.17/AndroidManifest.xml:31:5-86
+85-->[com.onesignal:notifications:5.1.17] /Users/macbookprom2/.gradle/caches/transforms-3/580f7feaca18b0f636369a8ecd7ec883/transformed/jetified-notifications-5.1.17/AndroidManifest.xml:31:22-83
+86    <uses-permission android:name="com.sec.android.provider.badge.permission.WRITE" /> <!-- HTC -->
+86-->[com.onesignal:notifications:5.1.17] /Users/macbookprom2/.gradle/caches/transforms-3/580f7feaca18b0f636369a8ecd7ec883/transformed/jetified-notifications-5.1.17/AndroidManifest.xml:32:5-87
+86-->[com.onesignal:notifications:5.1.17] /Users/macbookprom2/.gradle/caches/transforms-3/580f7feaca18b0f636369a8ecd7ec883/transformed/jetified-notifications-5.1.17/AndroidManifest.xml:32:22-84
+87    <uses-permission android:name="com.htc.launcher.permission.READ_SETTINGS" />
+87-->[com.onesignal:notifications:5.1.17] /Users/macbookprom2/.gradle/caches/transforms-3/580f7feaca18b0f636369a8ecd7ec883/transformed/jetified-notifications-5.1.17/AndroidManifest.xml:33:5-81
+87-->[com.onesignal:notifications:5.1.17] /Users/macbookprom2/.gradle/caches/transforms-3/580f7feaca18b0f636369a8ecd7ec883/transformed/jetified-notifications-5.1.17/AndroidManifest.xml:33:22-78
+88    <uses-permission android:name="com.htc.launcher.permission.UPDATE_SHORTCUT" /> <!-- Sony -->
+88-->[com.onesignal:notifications:5.1.17] /Users/macbookprom2/.gradle/caches/transforms-3/580f7feaca18b0f636369a8ecd7ec883/transformed/jetified-notifications-5.1.17/AndroidManifest.xml:34:5-83
+88-->[com.onesignal:notifications:5.1.17] /Users/macbookprom2/.gradle/caches/transforms-3/580f7feaca18b0f636369a8ecd7ec883/transformed/jetified-notifications-5.1.17/AndroidManifest.xml:34:22-80
+89    <uses-permission android:name="com.sonyericsson.home.permission.BROADCAST_BADGE" />
+89-->[com.onesignal:notifications:5.1.17] /Users/macbookprom2/.gradle/caches/transforms-3/580f7feaca18b0f636369a8ecd7ec883/transformed/jetified-notifications-5.1.17/AndroidManifest.xml:35:5-88
+89-->[com.onesignal:notifications:5.1.17] /Users/macbookprom2/.gradle/caches/transforms-3/580f7feaca18b0f636369a8ecd7ec883/transformed/jetified-notifications-5.1.17/AndroidManifest.xml:35:22-85
+90    <uses-permission android:name="com.sonymobile.home.permission.PROVIDER_INSERT_BADGE" /> <!-- Apex -->
+90-->[com.onesignal:notifications:5.1.17] /Users/macbookprom2/.gradle/caches/transforms-3/580f7feaca18b0f636369a8ecd7ec883/transformed/jetified-notifications-5.1.17/AndroidManifest.xml:36:5-92
+90-->[com.onesignal:notifications:5.1.17] /Users/macbookprom2/.gradle/caches/transforms-3/580f7feaca18b0f636369a8ecd7ec883/transformed/jetified-notifications-5.1.17/AndroidManifest.xml:36:22-89
+91    <uses-permission android:name="com.anddoes.launcher.permission.UPDATE_COUNT" /> <!-- Solid -->
+91-->[com.onesignal:notifications:5.1.17] /Users/macbookprom2/.gradle/caches/transforms-3/580f7feaca18b0f636369a8ecd7ec883/transformed/jetified-notifications-5.1.17/AndroidManifest.xml:37:5-84
+91-->[com.onesignal:notifications:5.1.17] /Users/macbookprom2/.gradle/caches/transforms-3/580f7feaca18b0f636369a8ecd7ec883/transformed/jetified-notifications-5.1.17/AndroidManifest.xml:37:22-81
+92    <uses-permission android:name="com.majeur.launcher.permission.UPDATE_BADGE" /> <!-- Huawei -->
+92-->[com.onesignal:notifications:5.1.17] /Users/macbookprom2/.gradle/caches/transforms-3/580f7feaca18b0f636369a8ecd7ec883/transformed/jetified-notifications-5.1.17/AndroidManifest.xml:38:5-83
+92-->[com.onesignal:notifications:5.1.17] /Users/macbookprom2/.gradle/caches/transforms-3/580f7feaca18b0f636369a8ecd7ec883/transformed/jetified-notifications-5.1.17/AndroidManifest.xml:38:22-80
+93    <uses-permission android:name="com.huawei.android.launcher.permission.CHANGE_BADGE" />
+93-->[com.onesignal:notifications:5.1.17] /Users/macbookprom2/.gradle/caches/transforms-3/580f7feaca18b0f636369a8ecd7ec883/transformed/jetified-notifications-5.1.17/AndroidManifest.xml:39:5-91
+93-->[com.onesignal:notifications:5.1.17] /Users/macbookprom2/.gradle/caches/transforms-3/580f7feaca18b0f636369a8ecd7ec883/transformed/jetified-notifications-5.1.17/AndroidManifest.xml:39:22-88
+94    <uses-permission android:name="com.huawei.android.launcher.permission.READ_SETTINGS" />
+94-->[com.onesignal:notifications:5.1.17] /Users/macbookprom2/.gradle/caches/transforms-3/580f7feaca18b0f636369a8ecd7ec883/transformed/jetified-notifications-5.1.17/AndroidManifest.xml:40:5-92
+94-->[com.onesignal:notifications:5.1.17] /Users/macbookprom2/.gradle/caches/transforms-3/580f7feaca18b0f636369a8ecd7ec883/transformed/jetified-notifications-5.1.17/AndroidManifest.xml:40:22-89
+95    <uses-permission android:name="com.huawei.android.launcher.permission.WRITE_SETTINGS" /> <!-- ZUK -->
+95-->[com.onesignal:notifications:5.1.17] /Users/macbookprom2/.gradle/caches/transforms-3/580f7feaca18b0f636369a8ecd7ec883/transformed/jetified-notifications-5.1.17/AndroidManifest.xml:41:5-93
+95-->[com.onesignal:notifications:5.1.17] /Users/macbookprom2/.gradle/caches/transforms-3/580f7feaca18b0f636369a8ecd7ec883/transformed/jetified-notifications-5.1.17/AndroidManifest.xml:41:22-90
+96    <uses-permission android:name="android.permission.READ_APP_BADGE" /> <!-- OPPO -->
+96-->[com.onesignal:notifications:5.1.17] /Users/macbookprom2/.gradle/caches/transforms-3/580f7feaca18b0f636369a8ecd7ec883/transformed/jetified-notifications-5.1.17/AndroidManifest.xml:42:5-73
+96-->[com.onesignal:notifications:5.1.17] /Users/macbookprom2/.gradle/caches/transforms-3/580f7feaca18b0f636369a8ecd7ec883/transformed/jetified-notifications-5.1.17/AndroidManifest.xml:42:22-70
+97    <uses-permission android:name="com.oppo.launcher.permission.READ_SETTINGS" />
+97-->[com.onesignal:notifications:5.1.17] /Users/macbookprom2/.gradle/caches/transforms-3/580f7feaca18b0f636369a8ecd7ec883/transformed/jetified-notifications-5.1.17/AndroidManifest.xml:43:5-82
+97-->[com.onesignal:notifications:5.1.17] /Users/macbookprom2/.gradle/caches/transforms-3/580f7feaca18b0f636369a8ecd7ec883/transformed/jetified-notifications-5.1.17/AndroidManifest.xml:43:22-79
+98    <uses-permission android:name="com.oppo.launcher.permission.WRITE_SETTINGS" /> <!-- EvMe -->
+98-->[com.onesignal:notifications:5.1.17] /Users/macbookprom2/.gradle/caches/transforms-3/580f7feaca18b0f636369a8ecd7ec883/transformed/jetified-notifications-5.1.17/AndroidManifest.xml:44:5-83
+98-->[com.onesignal:notifications:5.1.17] /Users/macbookprom2/.gradle/caches/transforms-3/580f7feaca18b0f636369a8ecd7ec883/transformed/jetified-notifications-5.1.17/AndroidManifest.xml:44:22-80
+99    <uses-permission android:name="me.everything.badger.permission.BADGE_COUNT_READ" />
+99-->[com.onesignal:notifications:5.1.17] /Users/macbookprom2/.gradle/caches/transforms-3/580f7feaca18b0f636369a8ecd7ec883/transformed/jetified-notifications-5.1.17/AndroidManifest.xml:45:5-88
+99-->[com.onesignal:notifications:5.1.17] /Users/macbookprom2/.gradle/caches/transforms-3/580f7feaca18b0f636369a8ecd7ec883/transformed/jetified-notifications-5.1.17/AndroidManifest.xml:45:22-85
+100    <uses-permission android:name="me.everything.badger.permission.BADGE_COUNT_WRITE" />
+100-->[com.onesignal:notifications:5.1.17] /Users/macbookprom2/.gradle/caches/transforms-3/580f7feaca18b0f636369a8ecd7ec883/transformed/jetified-notifications-5.1.17/AndroidManifest.xml:46:5-89
+100-->[com.onesignal:notifications:5.1.17] /Users/macbookprom2/.gradle/caches/transforms-3/580f7feaca18b0f636369a8ecd7ec883/transformed/jetified-notifications-5.1.17/AndroidManifest.xml:46:22-86
+101    <uses-permission android:name="android.permission.FOREGROUND_SERVICE_LOCATION" />
+101-->[com.mapbox.navigation:core:2.16.0] /Users/macbookprom2/.gradle/caches/transforms-3/e8e336a1c7b00f6bb0e554cd7b943347/transformed/jetified-core-2.16.0/AndroidManifest.xml:13:5-86
+101-->[com.mapbox.navigation:core:2.16.0] /Users/macbookprom2/.gradle/caches/transforms-3/e8e336a1c7b00f6bb0e554cd7b943347/transformed/jetified-core-2.16.0/AndroidManifest.xml:13:22-83
+102
+103    <uses-feature
+103-->[com.google.android.gms:play-services-maps:18.2.0] /Users/macbookprom2/.gradle/caches/transforms-3/769d6602098a8fe053727a114f54ed3f/transformed/jetified-play-services-maps-18.2.0/AndroidManifest.xml:26:5-28:35
+104        android:glEsVersion="0x00020000"
+104-->[com.google.android.gms:play-services-maps:18.2.0] /Users/macbookprom2/.gradle/caches/transforms-3/769d6602098a8fe053727a114f54ed3f/transformed/jetified-play-services-maps-18.2.0/AndroidManifest.xml:27:9-41
+105        android:required="true" />
+105-->[com.google.android.gms:play-services-maps:18.2.0] /Users/macbookprom2/.gradle/caches/transforms-3/769d6602098a8fe053727a114f54ed3f/transformed/jetified-play-services-maps-18.2.0/AndroidManifest.xml:28:9-32
+106
+107    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" />
+107-->[com.mapbox.navigator:mapbox-navigation-native:157.0.0] /Users/macbookprom2/.gradle/caches/transforms-3/85a6735ad85f56e8c7deee21263db595/transformed/jetified-mapbox-navigation-native-157.0.0/AndroidManifest.xml:10:5-79
+107-->[com.mapbox.navigator:mapbox-navigation-native:157.0.0] /Users/macbookprom2/.gradle/caches/transforms-3/85a6735ad85f56e8c7deee21263db595/transformed/jetified-mapbox-navigation-native-157.0.0/AndroidManifest.xml:10:22-76
+108
+109    <uses-feature
+109-->[com.mapbox.maps:android-core:10.16.0] /Users/macbookprom2/.gradle/caches/transforms-3/3a2282ea0177c3535733ed6189318851/transformed/jetified-android-core-10.16.0/AndroidManifest.xml:13:5-15:36
+110        android:name="android.hardware.wifi"
+110-->[com.mapbox.maps:android-core:10.16.0] /Users/macbookprom2/.gradle/caches/transforms-3/3a2282ea0177c3535733ed6189318851/transformed/jetified-android-core-10.16.0/AndroidManifest.xml:14:9-45
+111        android:required="false" />
+111-->[com.mapbox.maps:android-core:10.16.0] /Users/macbookprom2/.gradle/caches/transforms-3/3a2282ea0177c3535733ed6189318851/transformed/jetified-android-core-10.16.0/AndroidManifest.xml:15:9-33
+112
+113    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+113-->[com.mapbox.maps:android-core:10.16.0] /Users/macbookprom2/.gradle/caches/transforms-3/3a2282ea0177c3535733ed6189318851/transformed/jetified-android-core-10.16.0/AndroidManifest.xml:19:5-76
+113-->[com.mapbox.maps:android-core:10.16.0] /Users/macbookprom2/.gradle/caches/transforms-3/3a2282ea0177c3535733ed6189318851/transformed/jetified-android-core-10.16.0/AndroidManifest.xml:19:22-73
+114
+115    <permission
+115-->[androidx.core:core:1.13.1] /Users/macbookprom2/.gradle/caches/transforms-3/5af03f1e3bf82b901dd5e3b167881695/transformed/core-1.13.1/AndroidManifest.xml:22:5-24:47
+116        android:name="com.gobabidrive.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+116-->[androidx.core:core:1.13.1] /Users/macbookprom2/.gradle/caches/transforms-3/5af03f1e3bf82b901dd5e3b167881695/transformed/core-1.13.1/AndroidManifest.xml:23:9-81
+117        android:protectionLevel="signature" />
+117-->[androidx.core:core:1.13.1] /Users/macbookprom2/.gradle/caches/transforms-3/5af03f1e3bf82b901dd5e3b167881695/transformed/core-1.13.1/AndroidManifest.xml:24:9-44
+118
+119    <uses-permission android:name="com.gobabidrive.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+119-->[androidx.core:core:1.13.1] /Users/macbookprom2/.gradle/caches/transforms-3/5af03f1e3bf82b901dd5e3b167881695/transformed/core-1.13.1/AndroidManifest.xml:26:5-97
+119-->[androidx.core:core:1.13.1] /Users/macbookprom2/.gradle/caches/transforms-3/5af03f1e3bf82b901dd5e3b167881695/transformed/core-1.13.1/AndroidManifest.xml:26:22-94
+120
+121    <supports-screens
+121-->[org.osmdroid:osmdroid-android:6.1.17] /Users/macbookprom2/.gradle/caches/transforms-3/09a76339efe24d370ff0cb31892cbf45/transformed/jetified-osmdroid-android-6.1.17/AndroidManifest.xml:9:5-12:40
+122        android:anyDensity="true"
+122-->[org.osmdroid:osmdroid-android:6.1.17] /Users/macbookprom2/.gradle/caches/transforms-3/09a76339efe24d370ff0cb31892cbf45/transformed/jetified-osmdroid-android-6.1.17/AndroidManifest.xml:10:9-34
+123        android:largeScreens="true"
+123-->[org.osmdroid:osmdroid-android:6.1.17] /Users/macbookprom2/.gradle/caches/transforms-3/09a76339efe24d370ff0cb31892cbf45/transformed/jetified-osmdroid-android-6.1.17/AndroidManifest.xml:11:9-36
+124        android:normalScreens="true" />
+124-->[org.osmdroid:osmdroid-android:6.1.17] /Users/macbookprom2/.gradle/caches/transforms-3/09a76339efe24d370ff0cb31892cbf45/transformed/jetified-osmdroid-android-6.1.17/AndroidManifest.xml:12:9-37
+125
+126    <uses-feature
+126-->[org.osmdroid:osmdroid-android:6.1.17] /Users/macbookprom2/.gradle/caches/transforms-3/09a76339efe24d370ff0cb31892cbf45/transformed/jetified-osmdroid-android-6.1.17/AndroidManifest.xml:14:5-16:36
+127        android:name="android.hardware.location.network"
+127-->[org.osmdroid:osmdroid-android:6.1.17] /Users/macbookprom2/.gradle/caches/transforms-3/09a76339efe24d370ff0cb31892cbf45/transformed/jetified-osmdroid-android-6.1.17/AndroidManifest.xml:15:9-57
+128        android:required="false" />
+128-->[org.osmdroid:osmdroid-android:6.1.17] /Users/macbookprom2/.gradle/caches/transforms-3/09a76339efe24d370ff0cb31892cbf45/transformed/jetified-osmdroid-android-6.1.17/AndroidManifest.xml:16:9-33
+129    <uses-feature
+129-->[org.osmdroid:osmdroid-android:6.1.17] /Users/macbookprom2/.gradle/caches/transforms-3/09a76339efe24d370ff0cb31892cbf45/transformed/jetified-osmdroid-android-6.1.17/AndroidManifest.xml:17:5-19:36
+130        android:name="android.hardware.location.gps"
+130-->[org.osmdroid:osmdroid-android:6.1.17] /Users/macbookprom2/.gradle/caches/transforms-3/09a76339efe24d370ff0cb31892cbf45/transformed/jetified-osmdroid-android-6.1.17/AndroidManifest.xml:18:9-53
+131        android:required="false" />
+131-->[org.osmdroid:osmdroid-android:6.1.17] /Users/macbookprom2/.gradle/caches/transforms-3/09a76339efe24d370ff0cb31892cbf45/transformed/jetified-osmdroid-android-6.1.17/AndroidManifest.xml:19:9-33
+132    <uses-feature
+132-->[org.osmdroid:osmdroid-android:6.1.17] /Users/macbookprom2/.gradle/caches/transforms-3/09a76339efe24d370ff0cb31892cbf45/transformed/jetified-osmdroid-android-6.1.17/AndroidManifest.xml:20:5-22:36
+133        android:name="android.hardware.telephony"
+133-->[org.osmdroid:osmdroid-android:6.1.17] /Users/macbookprom2/.gradle/caches/transforms-3/09a76339efe24d370ff0cb31892cbf45/transformed/jetified-osmdroid-android-6.1.17/AndroidManifest.xml:21:9-50
+134        android:required="false" />
+134-->[org.osmdroid:osmdroid-android:6.1.17] /Users/macbookprom2/.gradle/caches/transforms-3/09a76339efe24d370ff0cb31892cbf45/transformed/jetified-osmdroid-android-6.1.17/AndroidManifest.xml:22:9-33
+135
+136    <application
+136-->/Users/macbookprom2/Downloads/go_babi_ff_drive/android/app/src/main/AndroidManifest.xml:25:5-125:19
+137        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+137-->[androidx.core:core:1.13.1] /Users/macbookprom2/.gradle/caches/transforms-3/5af03f1e3bf82b901dd5e3b167881695/transformed/core-1.13.1/AndroidManifest.xml:28:18-86
+138        android:debuggable="true"
+139        android:extractNativeLibs="false"
+140        android:icon="@mipmap/ic_app_logo"
+140-->/Users/macbookprom2/Downloads/go_babi_ff_drive/android/app/src/main/AndroidManifest.xml:28:9-43
+141        android:label="Go Babi Drive"
+141-->/Users/macbookprom2/Downloads/go_babi_ff_drive/android/app/src/main/AndroidManifest.xml:26:9-38
+142        android:requestLegacyExternalStorage="true" >
+142-->/Users/macbookprom2/Downloads/go_babi_ff_drive/android/app/src/main/AndroidManifest.xml:29:9-52
+143        <activity
+143-->/Users/macbookprom2/Downloads/go_babi_ff_drive/android/app/src/main/AndroidManifest.xml:31:9-74:20
+144            android:name="com.gobabidrive.MainActivity"
+144-->/Users/macbookprom2/Downloads/go_babi_ff_drive/android/app/src/main/AndroidManifest.xml:32:13-41
+145            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+145-->/Users/macbookprom2/Downloads/go_babi_ff_drive/android/app/src/main/AndroidManifest.xml:36:13-163
+146            android:exported="true"
+146-->/Users/macbookprom2/Downloads/go_babi_ff_drive/android/app/src/main/AndroidManifest.xml:33:13-36
+147            android:hardwareAccelerated="true"
+147-->/Users/macbookprom2/Downloads/go_babi_ff_drive/android/app/src/main/AndroidManifest.xml:37:13-47
+148            android:launchMode="singleTop"
+148-->/Users/macbookprom2/Downloads/go_babi_ff_drive/android/app/src/main/AndroidManifest.xml:34:13-43
+149            android:theme="@style/LaunchTheme"
+149-->/Users/macbookprom2/Downloads/go_babi_ff_drive/android/app/src/main/AndroidManifest.xml:35:13-47
+150            android:windowSoftInputMode="adjustResize" >
+150-->/Users/macbookprom2/Downloads/go_babi_ff_drive/android/app/src/main/AndroidManifest.xml:38:13-55
+151
+152            <!--
+153                 Specifies an Android theme to apply to this Activity as soon as
+154                 the Android process has started. This theme is visible to the user
+155                 while the Flutter UI initializes. After that, this theme continues
+156                 to determine the Window background behind the Flutter UI.
+157            -->
+158            <meta-data
+158-->/Users/macbookprom2/Downloads/go_babi_ff_drive/android/app/src/main/AndroidManifest.xml:43:13-46:17
+159                android:name="io.flutter.embedding.android.NormalTheme"
+159-->/Users/macbookprom2/Downloads/go_babi_ff_drive/android/app/src/main/AndroidManifest.xml:44:15-70
+160                android:resource="@style/NormalTheme" />
+160-->/Users/macbookprom2/Downloads/go_babi_ff_drive/android/app/src/main/AndroidManifest.xml:45:15-52
+161            <!--
+162                 Displays an Android View that continues showing the launch screen
+163                 Drawable until Flutter paints its first frame, then this splash
+164                 screen fades out. A splash screen is useful to avoid any visual
+165                 gap between the end of Android's launch screen and the painting of
+166                 Flutter's first frame.
+167            -->
+168            <meta-data
+168-->/Users/macbookprom2/Downloads/go_babi_ff_drive/android/app/src/main/AndroidManifest.xml:52:13-55:17
+169                android:name="io.flutter.embedding.android.SplashScreenDrawable"
+169-->/Users/macbookprom2/Downloads/go_babi_ff_drive/android/app/src/main/AndroidManifest.xml:53:15-79
+170                android:resource="@drawable/launch_background" />
+170-->/Users/macbookprom2/Downloads/go_babi_ff_drive/android/app/src/main/AndroidManifest.xml:54:15-61
+171
+172            <intent-filter>
+172-->/Users/macbookprom2/Downloads/go_babi_ff_drive/android/app/src/main/AndroidManifest.xml:56:13-59:29
+173                <action android:name="android.intent.action.MAIN" />
+173-->/Users/macbookprom2/Downloads/go_babi_ff_drive/android/app/src/main/AndroidManifest.xml:57:17-68
+173-->/Users/macbookprom2/Downloads/go_babi_ff_drive/android/app/src/main/AndroidManifest.xml:57:25-66
+174
+175                <category android:name="android.intent.category.LAUNCHER" />
+175-->/Users/macbookprom2/Downloads/go_babi_ff_drive/android/app/src/main/AndroidManifest.xml:58:17-76
+175-->/Users/macbookprom2/Downloads/go_babi_ff_drive/android/app/src/main/AndroidManifest.xml:58:27-74
+176            </intent-filter>
+177            <!-- Deep linking -->
+178            <meta-data
+178-->/Users/macbookprom2/Downloads/go_babi_ff_drive/android/app/src/main/AndroidManifest.xml:61:13-90
+179                android:name="flutter_deeplinking_enabled"
+179-->/Users/macbookprom2/Downloads/go_babi_ff_drive/android/app/src/main/AndroidManifest.xml:61:24-66
+180                android:value="true" />
+180-->/Users/macbookprom2/Downloads/go_babi_ff_drive/android/app/src/main/AndroidManifest.xml:61:67-87
+181
+182            <intent-filter android:autoVerify="true" >
+182-->/Users/macbookprom2/Downloads/go_babi_ff_drive/android/app/src/main/AndroidManifest.xml:62:13-67:29
+182-->/Users/macbookprom2/Downloads/go_babi_ff_drive/android/app/src/main/AndroidManifest.xml:62:28-53
+183                <action android:name="android.intent.action.VIEW" />
+183-->/Users/macbookprom2/Downloads/go_babi_ff_drive/android/app/src/main/AndroidManifest.xml:63:17-69
+183-->/Users/macbookprom2/Downloads/go_babi_ff_drive/android/app/src/main/AndroidManifest.xml:63:25-66
+184
+185                <category android:name="android.intent.category.DEFAULT" />
+185-->/Users/macbookprom2/Downloads/go_babi_ff_drive/android/app/src/main/AndroidManifest.xml:64:17-76
+185-->/Users/macbookprom2/Downloads/go_babi_ff_drive/android/app/src/main/AndroidManifest.xml:64:27-73
+186                <category android:name="android.intent.category.BROWSABLE" />
+186-->/Users/macbookprom2/Downloads/go_babi_ff_drive/android/app/src/main/AndroidManifest.xml:65:17-78
+186-->/Users/macbookprom2/Downloads/go_babi_ff_drive/android/app/src/main/AndroidManifest.xml:65:27-75
+187
+188                <data
+188-->/Users/macbookprom2/Downloads/go_babi_ff_drive/android/app/src/main/AndroidManifest.xml:66:17-85
+189                    android:host="gobabidrive.com"
+189-->/Users/macbookprom2/Downloads/go_babi_ff_drive/android/app/src/main/AndroidManifest.xml:66:52-82
+190                    android:scheme="gobabidrive" />
+190-->/Users/macbookprom2/Downloads/go_babi_ff_drive/android/app/src/main/AndroidManifest.xml:66:23-51
+191            </intent-filter>
+192
+193            <!--
+194            <intent-filter>
+195                <action android:name="intent.bring.app.to.foreground" />
+196                <category android:name="android.intent.category.DEFAULT" />
+197            </intent-filter>
+198            -->
+199
+200        </activity>
+201
+202        <!-- Add the BroadcastReceiver here -->
+203        <receiver
+203-->/Users/macbookprom2/Downloads/go_babi_ff_drive/android/app/src/main/AndroidManifest.xml:77:9-82:20
+204            android:name="com.gobabidrive.NotificationReceiver"
+204-->/Users/macbookprom2/Downloads/go_babi_ff_drive/android/app/src/main/AndroidManifest.xml:77:19-55
+205            android:exported="true" >
+205-->/Users/macbookprom2/Downloads/go_babi_ff_drive/android/app/src/main/AndroidManifest.xml:78:13-36
+206            <intent-filter>
+206-->/Users/macbookprom2/Downloads/go_babi_ff_drive/android/app/src/main/AndroidManifest.xml:79:13-81:29
+207                <action android:name="com.gobabidrive.NOTIFICATION_ACTION" />
+207-->/Users/macbookprom2/Downloads/go_babi_ff_drive/android/app/src/main/AndroidManifest.xml:80:17-77
+207-->/Users/macbookprom2/Downloads/go_babi_ff_drive/android/app/src/main/AndroidManifest.xml:80:25-75
+208            </intent-filter>
+209        </receiver>
+210
+211        <!-- Mapbox Navigation Receiver -->
+212        <receiver
+212-->/Users/macbookprom2/Downloads/go_babi_ff_drive/android/app/src/main/AndroidManifest.xml:85:9-93:20
+213            android:name="com.mapbox.services.android.navigation.v5.navigation.NavigationBroadcastReceiver"
+213-->/Users/macbookprom2/Downloads/go_babi_ff_drive/android/app/src/main/AndroidManifest.xml:86:13-108
+214            android:exported="true" >
+214-->/Users/macbookprom2/Downloads/go_babi_ff_drive/android/app/src/main/AndroidManifest.xml:87:13-36
+215            <intent-filter>
+215-->/Users/macbookprom2/Downloads/go_babi_ff_drive/android/app/src/main/AndroidManifest.xml:88:13-92:29
+216                <action android:name="com.mapbox.navigation.START_NAVIGATION" />
+216-->/Users/macbookprom2/Downloads/go_babi_ff_drive/android/app/src/main/AndroidManifest.xml:89:17-81
+216-->/Users/macbookprom2/Downloads/go_babi_ff_drive/android/app/src/main/AndroidManifest.xml:89:25-78
+217                <action android:name="com.mapbox.navigation.CANCEL_NAVIGATION" />
+217-->/Users/macbookprom2/Downloads/go_babi_ff_drive/android/app/src/main/AndroidManifest.xml:90:17-82
+217-->/Users/macbookprom2/Downloads/go_babi_ff_drive/android/app/src/main/AndroidManifest.xml:90:25-79
+218                <action android:name="com.mapbox.navigation.RESUME_NAVIGATION" />
+218-->/Users/macbookprom2/Downloads/go_babi_ff_drive/android/app/src/main/AndroidManifest.xml:91:17-82
+218-->/Users/macbookprom2/Downloads/go_babi_ff_drive/android/app/src/main/AndroidManifest.xml:91:25-79
+219            </intent-filter>
+220        </receiver>
+221
+222        <!--
+223             Don't delete the meta-data below.
+224             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
+225        -->
+226        <meta-data
+226-->/Users/macbookprom2/Downloads/go_babi_ff_drive/android/app/src/main/AndroidManifest.xml:97:9-99:33
+227            android:name="flutterEmbedding"
+227-->/Users/macbookprom2/Downloads/go_babi_ff_drive/android/app/src/main/AndroidManifest.xml:98:13-44
+228            android:value="2" />
+228-->/Users/macbookprom2/Downloads/go_babi_ff_drive/android/app/src/main/AndroidManifest.xml:99:13-30
+229        <meta-data
+229-->/Users/macbookprom2/Downloads/go_babi_ff_drive/android/app/src/main/AndroidManifest.xml:101:9-103:72
+230            android:name="com.mapbox.token"
+230-->/Users/macbookprom2/Downloads/go_babi_ff_drive/android/app/src/main/AndroidManifest.xml:102:13-44
+231            android:value="@mapbox_access_token/mapbox_access_token" />
+231-->/Users/macbookprom2/Downloads/go_babi_ff_drive/android/app/src/main/AndroidManifest.xml:103:13-69
+232        <meta-data
+232-->/Users/macbookprom2/Downloads/go_babi_ff_drive/android/app/src/main/AndroidManifest.xml:105:9-123
+233            android:name="com.google.android.geo.API_KEY"
+233-->/Users/macbookprom2/Downloads/go_babi_ff_drive/android/app/src/main/AndroidManifest.xml:105:20-65
+234            android:value="AIzaSyBmghMedf-fRRzj62DftBpx0-cqUzNGzf8" />
+234-->/Users/macbookprom2/Downloads/go_babi_ff_drive/android/app/src/main/AndroidManifest.xml:105:66-121
+235
+236        <!--
+237        <service
+238        android:name="com.dsaved.bubblehead.bubble.BubbleHeadService"
+239        android:enabled="true"
+240        android:exported="false"/>
+241        -->
+242
+243        <service
+243-->/Users/macbookprom2/Downloads/go_babi_ff_drive/android/app/src/main/AndroidManifest.xml:112:9-116:11
+244            android:name="id.flutter.flutter_background_service.BackgroundService"
+244-->/Users/macbookprom2/Downloads/go_babi_ff_drive/android/app/src/main/AndroidManifest.xml:113:13-83
+245            android:enabled="true"
+245-->[:flutter_background_service_android] /Users/macbookprom2/Downloads/go_babi_ff_drive/build/flutter_background_service_android/intermediates/merged_manifest/debug/AndroidManifest.xml:16:13-35
+246            android:exported="true"
+246-->[:flutter_background_service_android] /Users/macbookprom2/Downloads/go_babi_ff_drive/build/flutter_background_service_android/intermediates/merged_manifest/debug/AndroidManifest.xml:17:13-36
+247            android:foregroundServiceType="location"
+247-->/Users/macbookprom2/Downloads/go_babi_ff_drive/android/app/src/main/AndroidManifest.xml:114:13-53
+248            android:permission="android.permission.FOREGROUND_SERVICE"
+248-->/Users/macbookprom2/Downloads/go_babi_ff_drive/android/app/src/main/AndroidManifest.xml:115:13-71
+249            android:stopWithTask="false" />
+249-->[:flutter_background_service_android] /Users/macbookprom2/Downloads/go_babi_ff_drive/build/flutter_background_service_android/intermediates/merged_manifest/debug/AndroidManifest.xml:18:13-41
+250        <service
+250-->/Users/macbookprom2/Downloads/go_babi_ff_drive/android/app/src/main/AndroidManifest.xml:118:9-121:32
+251            android:name="com.pravera.flutter_foreground_task.service.ForegroundService"
+251-->/Users/macbookprom2/Downloads/go_babi_ff_drive/android/app/src/main/AndroidManifest.xml:119:5-81
+252            android:exported="false"
+252-->/Users/macbookprom2/Downloads/go_babi_ff_drive/android/app/src/main/AndroidManifest.xml:121:5-29
+253            android:foregroundServiceType="dataSync|remoteMessaging" />
+253-->/Users/macbookprom2/Downloads/go_babi_ff_drive/android/app/src/main/AndroidManifest.xml:120:5-61
+254        <service
+254-->[:cloud_firestore] /Users/macbookprom2/Downloads/go_babi_ff_drive/build/cloud_firestore/intermediates/merged_manifest/debug/AndroidManifest.xml:10:9-14:19
+255            android:name="com.google.firebase.components.ComponentDiscoveryService"
+255-->[:cloud_firestore] /Users/macbookprom2/Downloads/go_babi_ff_drive/build/cloud_firestore/intermediates/merged_manifest/debug/AndroidManifest.xml:10:18-89
+256            android:directBootAware="true"
+256-->[com.google.firebase:firebase-common:20.4.3] /Users/macbookprom2/.gradle/caches/transforms-3/b76ef1c361189bfe324e7d729a5373dc/transformed/jetified-firebase-common-20.4.3/AndroidManifest.xml:32:13-43
+257            android:exported="false" >
+257-->[com.google.firebase:firebase-perf:20.5.2] /Users/macbookprom2/.gradle/caches/transforms-3/36991fbe858558620ae73161bf35e0ba/transformed/jetified-firebase-perf-20.5.2/AndroidManifest.xml:13:13-37
+258            <meta-data
+258-->[:cloud_firestore] /Users/macbookprom2/Downloads/go_babi_ff_drive/build/cloud_firestore/intermediates/merged_manifest/debug/AndroidManifest.xml:11:13-13:85
+259                android:name="com.google.firebase.components:io.flutter.plugins.firebase.firestore.FlutterFirebaseFirestoreRegistrar"
+259-->[:cloud_firestore] /Users/macbookprom2/Downloads/go_babi_ff_drive/build/cloud_firestore/intermediates/merged_manifest/debug/AndroidManifest.xml:12:17-134
+260                android:value="com.google.firebase.components.ComponentRegistrar" />
+260-->[:cloud_firestore] /Users/macbookprom2/Downloads/go_babi_ff_drive/build/cloud_firestore/intermediates/merged_manifest/debug/AndroidManifest.xml:13:17-82
+261            <meta-data
+261-->[:firebase_performance] /Users/macbookprom2/Downloads/go_babi_ff_drive/build/firebase_performance/intermediates/merged_manifest/debug/AndroidManifest.xml:13:13-15:85
+262                android:name="com.google.firebase.components:io.flutter.plugins.firebase.performance.FlutterFirebaseAppRegistrar"
+262-->[:firebase_performance] /Users/macbookprom2/Downloads/go_babi_ff_drive/build/firebase_performance/intermediates/merged_manifest/debug/AndroidManifest.xml:14:17-130
+263                android:value="com.google.firebase.components.ComponentRegistrar" />
+263-->[:firebase_performance] /Users/macbookprom2/Downloads/go_babi_ff_drive/build/firebase_performance/intermediates/merged_manifest/debug/AndroidManifest.xml:15:17-82
+264            <meta-data
+264-->[:firebase_core] /Users/macbookprom2/Downloads/go_babi_ff_drive/build/firebase_core/intermediates/merged_manifest/debug/AndroidManifest.xml:11:13-13:85
+265                android:name="com.google.firebase.components:io.flutter.plugins.firebase.core.FlutterFirebaseCoreRegistrar"
+265-->[:firebase_core] /Users/macbookprom2/Downloads/go_babi_ff_drive/build/firebase_core/intermediates/merged_manifest/debug/AndroidManifest.xml:12:17-124
+266                android:value="com.google.firebase.components.ComponentRegistrar" />
+266-->[:firebase_core] /Users/macbookprom2/Downloads/go_babi_ff_drive/build/firebase_core/intermediates/merged_manifest/debug/AndroidManifest.xml:13:17-82
+267            <meta-data
+267-->[com.google.firebase:firebase-perf:20.5.2] /Users/macbookprom2/.gradle/caches/transforms-3/36991fbe858558620ae73161bf35e0ba/transformed/jetified-firebase-perf-20.5.2/AndroidManifest.xml:14:13-16:85
+268                android:name="com.google.firebase.components:com.google.firebase.perf.FirebasePerfKtxRegistrar"
+268-->[com.google.firebase:firebase-perf:20.5.2] /Users/macbookprom2/.gradle/caches/transforms-3/36991fbe858558620ae73161bf35e0ba/transformed/jetified-firebase-perf-20.5.2/AndroidManifest.xml:15:17-112
+269                android:value="com.google.firebase.components.ComponentRegistrar" />
+269-->[com.google.firebase:firebase-perf:20.5.2] /Users/macbookprom2/.gradle/caches/transforms-3/36991fbe858558620ae73161bf35e0ba/transformed/jetified-firebase-perf-20.5.2/AndroidManifest.xml:16:17-82
+270            <meta-data
+270-->[com.google.firebase:firebase-perf:20.5.2] /Users/macbookprom2/.gradle/caches/transforms-3/36991fbe858558620ae73161bf35e0ba/transformed/jetified-firebase-perf-20.5.2/AndroidManifest.xml:17:13-19:85
+271                android:name="com.google.firebase.components:com.google.firebase.perf.FirebasePerfRegistrar"
+271-->[com.google.firebase:firebase-perf:20.5.2] /Users/macbookprom2/.gradle/caches/transforms-3/36991fbe858558620ae73161bf35e0ba/transformed/jetified-firebase-perf-20.5.2/AndroidManifest.xml:18:17-109
+272                android:value="com.google.firebase.components.ComponentRegistrar" />
+272-->[com.google.firebase:firebase-perf:20.5.2] /Users/macbookprom2/.gradle/caches/transforms-3/36991fbe858558620ae73161bf35e0ba/transformed/jetified-firebase-perf-20.5.2/AndroidManifest.xml:19:17-82
+273            <meta-data
+273-->[com.google.firebase:firebase-messaging:23.4.1] /Users/macbookprom2/.gradle/caches/transforms-3/d3af869364f346543208745bc5aa521f/transformed/jetified-firebase-messaging-23.4.1/AndroidManifest.xml:57:13-59:85
+274                android:name="com.google.firebase.components:com.google.firebase.messaging.FirebaseMessagingKtxRegistrar"
+274-->[com.google.firebase:firebase-messaging:23.4.1] /Users/macbookprom2/.gradle/caches/transforms-3/d3af869364f346543208745bc5aa521f/transformed/jetified-firebase-messaging-23.4.1/AndroidManifest.xml:58:17-122
+275                android:value="com.google.firebase.components.ComponentRegistrar" />
+275-->[com.google.firebase:firebase-messaging:23.4.1] /Users/macbookprom2/.gradle/caches/transforms-3/d3af869364f346543208745bc5aa521f/transformed/jetified-firebase-messaging-23.4.1/AndroidManifest.xml:59:17-82
+276            <meta-data
+276-->[com.google.firebase:firebase-messaging:23.4.1] /Users/macbookprom2/.gradle/caches/transforms-3/d3af869364f346543208745bc5aa521f/transformed/jetified-firebase-messaging-23.4.1/AndroidManifest.xml:60:13-62:85
+277                android:name="com.google.firebase.components:com.google.firebase.messaging.FirebaseMessagingRegistrar"
+277-->[com.google.firebase:firebase-messaging:23.4.1] /Users/macbookprom2/.gradle/caches/transforms-3/d3af869364f346543208745bc5aa521f/transformed/jetified-firebase-messaging-23.4.1/AndroidManifest.xml:61:17-119
+278                android:value="com.google.firebase.components.ComponentRegistrar" />
+278-->[com.google.firebase:firebase-messaging:23.4.1] /Users/macbookprom2/.gradle/caches/transforms-3/d3af869364f346543208745bc5aa521f/transformed/jetified-firebase-messaging-23.4.1/AndroidManifest.xml:62:17-82
+279            <meta-data
+279-->[com.google.firebase:firebase-firestore:24.11.0] /Users/macbookprom2/.gradle/caches/transforms-3/2bbf3737c2a6ffa02eb7ab7d75089290/transformed/jetified-firebase-firestore-24.11.0/AndroidManifest.xml:17:13-19:85
+280                android:name="com.google.firebase.components:com.google.firebase.firestore.FirebaseFirestoreKtxRegistrar"
+280-->[com.google.firebase:firebase-firestore:24.11.0] /Users/macbookprom2/.gradle/caches/transforms-3/2bbf3737c2a6ffa02eb7ab7d75089290/transformed/jetified-firebase-firestore-24.11.0/AndroidManifest.xml:18:17-122
+281                android:value="com.google.firebase.components.ComponentRegistrar" />
+281-->[com.google.firebase:firebase-firestore:24.11.0] /Users/macbookprom2/.gradle/caches/transforms-3/2bbf3737c2a6ffa02eb7ab7d75089290/transformed/jetified-firebase-firestore-24.11.0/AndroidManifest.xml:19:17-82
+282            <meta-data
+282-->[com.google.firebase:firebase-firestore:24.11.0] /Users/macbookprom2/.gradle/caches/transforms-3/2bbf3737c2a6ffa02eb7ab7d75089290/transformed/jetified-firebase-firestore-24.11.0/AndroidManifest.xml:20:13-22:85
+283                android:name="com.google.firebase.components:com.google.firebase.firestore.FirestoreRegistrar"
+283-->[com.google.firebase:firebase-firestore:24.11.0] /Users/macbookprom2/.gradle/caches/transforms-3/2bbf3737c2a6ffa02eb7ab7d75089290/transformed/jetified-firebase-firestore-24.11.0/AndroidManifest.xml:21:17-111
+284                android:value="com.google.firebase.components.ComponentRegistrar" />
+284-->[com.google.firebase:firebase-firestore:24.11.0] /Users/macbookprom2/.gradle/caches/transforms-3/2bbf3737c2a6ffa02eb7ab7d75089290/transformed/jetified-firebase-firestore-24.11.0/AndroidManifest.xml:22:17-82
+285            <meta-data
+285-->[com.google.firebase:firebase-config:21.6.3] /Users/macbookprom2/.gradle/caches/transforms-3/32e309f0c41823a746b2ce74f089016d/transformed/jetified-firebase-config-21.6.3/AndroidManifest.xml:29:13-31:85
+286                android:name="com.google.firebase.components:com.google.firebase.remoteconfig.FirebaseRemoteConfigKtxRegistrar"
+286-->[com.google.firebase:firebase-config:21.6.3] /Users/macbookprom2/.gradle/caches/transforms-3/32e309f0c41823a746b2ce74f089016d/transformed/jetified-firebase-config-21.6.3/AndroidManifest.xml:30:17-128
+287                android:value="com.google.firebase.components.ComponentRegistrar" />
+287-->[com.google.firebase:firebase-config:21.6.3] /Users/macbookprom2/.gradle/caches/transforms-3/32e309f0c41823a746b2ce74f089016d/transformed/jetified-firebase-config-21.6.3/AndroidManifest.xml:31:17-82
+288            <meta-data
+288-->[com.google.firebase:firebase-config:21.6.3] /Users/macbookprom2/.gradle/caches/transforms-3/32e309f0c41823a746b2ce74f089016d/transformed/jetified-firebase-config-21.6.3/AndroidManifest.xml:32:13-34:85
+289                android:name="com.google.firebase.components:com.google.firebase.remoteconfig.RemoteConfigRegistrar"
+289-->[com.google.firebase:firebase-config:21.6.3] /Users/macbookprom2/.gradle/caches/transforms-3/32e309f0c41823a746b2ce74f089016d/transformed/jetified-firebase-config-21.6.3/AndroidManifest.xml:33:17-117
+290                android:value="com.google.firebase.components.ComponentRegistrar" />
+290-->[com.google.firebase:firebase-config:21.6.3] /Users/macbookprom2/.gradle/caches/transforms-3/32e309f0c41823a746b2ce74f089016d/transformed/jetified-firebase-config-21.6.3/AndroidManifest.xml:34:17-82
+291            <meta-data
+291-->[com.google.firebase:firebase-sessions:1.2.2] /Users/macbookprom2/.gradle/caches/transforms-3/64f7d9b573a27599e15b70f9123c0ed3/transformed/jetified-firebase-sessions-1.2.2/AndroidManifest.xml:29:13-31:85
+292                android:name="com.google.firebase.components:com.google.firebase.sessions.FirebaseSessionsRegistrar"
+292-->[com.google.firebase:firebase-sessions:1.2.2] /Users/macbookprom2/.gradle/caches/transforms-3/64f7d9b573a27599e15b70f9123c0ed3/transformed/jetified-firebase-sessions-1.2.2/AndroidManifest.xml:30:17-117
+293                android:value="com.google.firebase.components.ComponentRegistrar" />
+293-->[com.google.firebase:firebase-sessions:1.2.2] /Users/macbookprom2/.gradle/caches/transforms-3/64f7d9b573a27599e15b70f9123c0ed3/transformed/jetified-firebase-sessions-1.2.2/AndroidManifest.xml:31:17-82
+294            <meta-data
+294-->[com.google.firebase:firebase-installations:17.2.0] /Users/macbookprom2/.gradle/caches/transforms-3/1df63bd29bf402b1ef1f4a87cb84df21/transformed/jetified-firebase-installations-17.2.0/AndroidManifest.xml:15:13-17:85
+295                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsKtxRegistrar"
+295-->[com.google.firebase:firebase-installations:17.2.0] /Users/macbookprom2/.gradle/caches/transforms-3/1df63bd29bf402b1ef1f4a87cb84df21/transformed/jetified-firebase-installations-17.2.0/AndroidManifest.xml:16:17-130
+296                android:value="com.google.firebase.components.ComponentRegistrar" />
+296-->[com.google.firebase:firebase-installations:17.2.0] /Users/macbookprom2/.gradle/caches/transforms-3/1df63bd29bf402b1ef1f4a87cb84df21/transformed/jetified-firebase-installations-17.2.0/AndroidManifest.xml:17:17-82
+297            <meta-data
+297-->[com.google.firebase:firebase-installations:17.2.0] /Users/macbookprom2/.gradle/caches/transforms-3/1df63bd29bf402b1ef1f4a87cb84df21/transformed/jetified-firebase-installations-17.2.0/AndroidManifest.xml:18:13-20:85
+298                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
+298-->[com.google.firebase:firebase-installations:17.2.0] /Users/macbookprom2/.gradle/caches/transforms-3/1df63bd29bf402b1ef1f4a87cb84df21/transformed/jetified-firebase-installations-17.2.0/AndroidManifest.xml:19:17-127
+299                android:value="com.google.firebase.components.ComponentRegistrar" />
+299-->[com.google.firebase:firebase-installations:17.2.0] /Users/macbookprom2/.gradle/caches/transforms-3/1df63bd29bf402b1ef1f4a87cb84df21/transformed/jetified-firebase-installations-17.2.0/AndroidManifest.xml:20:17-82
+300            <meta-data
+300-->[com.google.firebase:firebase-common-ktx:20.4.3] /Users/macbookprom2/.gradle/caches/transforms-3/ccc8892494fe761ef324e942985355ec/transformed/jetified-firebase-common-ktx-20.4.3/AndroidManifest.xml:12:13-14:85
+301                android:name="com.google.firebase.components:com.google.firebase.ktx.FirebaseCommonLegacyRegistrar"
+301-->[com.google.firebase:firebase-common-ktx:20.4.3] /Users/macbookprom2/.gradle/caches/transforms-3/ccc8892494fe761ef324e942985355ec/transformed/jetified-firebase-common-ktx-20.4.3/AndroidManifest.xml:13:17-116
+302                android:value="com.google.firebase.components.ComponentRegistrar" />
+302-->[com.google.firebase:firebase-common-ktx:20.4.3] /Users/macbookprom2/.gradle/caches/transforms-3/ccc8892494fe761ef324e942985355ec/transformed/jetified-firebase-common-ktx-20.4.3/AndroidManifest.xml:14:17-82
+303            <meta-data
+303-->[com.google.firebase:firebase-common:20.4.3] /Users/macbookprom2/.gradle/caches/transforms-3/b76ef1c361189bfe324e7d729a5373dc/transformed/jetified-firebase-common-20.4.3/AndroidManifest.xml:35:13-37:85
+304                android:name="com.google.firebase.components:com.google.firebase.FirebaseCommonKtxRegistrar"
+304-->[com.google.firebase:firebase-common:20.4.3] /Users/macbookprom2/.gradle/caches/transforms-3/b76ef1c361189bfe324e7d729a5373dc/transformed/jetified-firebase-common-20.4.3/AndroidManifest.xml:36:17-109
+305                android:value="com.google.firebase.components.ComponentRegistrar" />
+305-->[com.google.firebase:firebase-common:20.4.3] /Users/macbookprom2/.gradle/caches/transforms-3/b76ef1c361189bfe324e7d729a5373dc/transformed/jetified-firebase-common-20.4.3/AndroidManifest.xml:37:17-82
+306            <meta-data
+306-->[com.google.firebase:firebase-abt:21.1.1] /Users/macbookprom2/.gradle/caches/transforms-3/e003aaf80e73c98243deca5de8c42a92/transformed/jetified-firebase-abt-21.1.1/AndroidManifest.xml:12:13-14:85
+307                android:name="com.google.firebase.components:com.google.firebase.abt.component.AbtRegistrar"
+307-->[com.google.firebase:firebase-abt:21.1.1] /Users/macbookprom2/.gradle/caches/transforms-3/e003aaf80e73c98243deca5de8c42a92/transformed/jetified-firebase-abt-21.1.1/AndroidManifest.xml:13:17-109
+308                android:value="com.google.firebase.components.ComponentRegistrar" />
+308-->[com.google.firebase:firebase-abt:21.1.1] /Users/macbookprom2/.gradle/caches/transforms-3/e003aaf80e73c98243deca5de8c42a92/transformed/jetified-firebase-abt-21.1.1/AndroidManifest.xml:14:17-82
+309            <meta-data
+309-->[com.google.firebase:firebase-datatransport:18.1.8] /Users/macbookprom2/.gradle/caches/transforms-3/e039aa79f2607ffbc20f71c5755e7ff2/transformed/jetified-firebase-datatransport-18.1.8/AndroidManifest.xml:27:13-29:85
+310                android:name="com.google.firebase.components:com.google.firebase.datatransport.TransportRegistrar"
+310-->[com.google.firebase:firebase-datatransport:18.1.8] /Users/macbookprom2/.gradle/caches/transforms-3/e039aa79f2607ffbc20f71c5755e7ff2/transformed/jetified-firebase-datatransport-18.1.8/AndroidManifest.xml:28:17-115
+311                android:value="com.google.firebase.components.ComponentRegistrar" />
+311-->[com.google.firebase:firebase-datatransport:18.1.8] /Users/macbookprom2/.gradle/caches/transforms-3/e039aa79f2607ffbc20f71c5755e7ff2/transformed/jetified-firebase-datatransport-18.1.8/AndroidManifest.xml:29:17-82
+312        </service>
+313
+314        <receiver
+314-->[:flutter_background_service_android] /Users/macbookprom2/Downloads/go_babi_ff_drive/build/flutter_background_service_android/intermediates/merged_manifest/debug/AndroidManifest.xml:20:9-23:39
+315            android:name="id.flutter.flutter_background_service.WatchdogReceiver"
+315-->[:flutter_background_service_android] /Users/macbookprom2/Downloads/go_babi_ff_drive/build/flutter_background_service_android/intermediates/merged_manifest/debug/AndroidManifest.xml:21:13-82
+316            android:enabled="true"
+316-->[:flutter_background_service_android] /Users/macbookprom2/Downloads/go_babi_ff_drive/build/flutter_background_service_android/intermediates/merged_manifest/debug/AndroidManifest.xml:22:13-35
+317            android:exported="true" />
+317-->[:flutter_background_service_android] /Users/macbookprom2/Downloads/go_babi_ff_drive/build/flutter_background_service_android/intermediates/merged_manifest/debug/AndroidManifest.xml:23:13-36
+318        <receiver
+318-->[:flutter_background_service_android] /Users/macbookprom2/Downloads/go_babi_ff_drive/build/flutter_background_service_android/intermediates/merged_manifest/debug/AndroidManifest.xml:24:9-33:20
+319            android:name="id.flutter.flutter_background_service.BootReceiver"
+319-->[:flutter_background_service_android] /Users/macbookprom2/Downloads/go_babi_ff_drive/build/flutter_background_service_android/intermediates/merged_manifest/debug/AndroidManifest.xml:25:13-78
+320            android:enabled="true"
+320-->[:flutter_background_service_android] /Users/macbookprom2/Downloads/go_babi_ff_drive/build/flutter_background_service_android/intermediates/merged_manifest/debug/AndroidManifest.xml:26:13-35
+321            android:exported="true" >
+321-->[:flutter_background_service_android] /Users/macbookprom2/Downloads/go_babi_ff_drive/build/flutter_background_service_android/intermediates/merged_manifest/debug/AndroidManifest.xml:27:13-36
+322            <intent-filter>
+322-->[:flutter_background_service_android] /Users/macbookprom2/Downloads/go_babi_ff_drive/build/flutter_background_service_android/intermediates/merged_manifest/debug/AndroidManifest.xml:28:13-32:29
+323                <action android:name="android.intent.action.BOOT_COMPLETED" />
+323-->[:flutter_background_service_android] /Users/macbookprom2/Downloads/go_babi_ff_drive/build/flutter_background_service_android/intermediates/merged_manifest/debug/AndroidManifest.xml:29:17-79
+323-->[:flutter_background_service_android] /Users/macbookprom2/Downloads/go_babi_ff_drive/build/flutter_background_service_android/intermediates/merged_manifest/debug/AndroidManifest.xml:29:25-76
+324                <action android:name="android.intent.action.QUICKBOOT_POWERON" />
+324-->[:flutter_background_service_android] /Users/macbookprom2/Downloads/go_babi_ff_drive/build/flutter_background_service_android/intermediates/merged_manifest/debug/AndroidManifest.xml:30:17-82
+324-->[:flutter_background_service_android] /Users/macbookprom2/Downloads/go_babi_ff_drive/build/flutter_background_service_android/intermediates/merged_manifest/debug/AndroidManifest.xml:30:25-79
+325                <action android:name="android.intent.action.MY_PACKAGE_REPLACED" />
+325-->[:flutter_background_service_android] /Users/macbookprom2/Downloads/go_babi_ff_drive/build/flutter_background_service_android/intermediates/merged_manifest/debug/AndroidManifest.xml:31:17-84
+325-->[:flutter_background_service_android] /Users/macbookprom2/Downloads/go_babi_ff_drive/build/flutter_background_service_android/intermediates/merged_manifest/debug/AndroidManifest.xml:31:25-81
+326            </intent-filter>
+327        </receiver>
+328        <receiver
+328-->[:flutter_foreground_task] /Users/macbookprom2/Downloads/go_babi_ff_drive/build/flutter_foreground_task/intermediates/merged_manifest/debug/AndroidManifest.xml:15:9-23:20
+329            android:name="com.pravera.flutter_foreground_task.service.RebootReceiver"
+329-->[:flutter_foreground_task] /Users/macbookprom2/Downloads/go_babi_ff_drive/build/flutter_foreground_task/intermediates/merged_manifest/debug/AndroidManifest.xml:16:13-86
+330            android:enabled="true"
+330-->[:flutter_foreground_task] /Users/macbookprom2/Downloads/go_babi_ff_drive/build/flutter_foreground_task/intermediates/merged_manifest/debug/AndroidManifest.xml:17:13-35
+331            android:exported="true" >
+331-->[:flutter_foreground_task] /Users/macbookprom2/Downloads/go_babi_ff_drive/build/flutter_foreground_task/intermediates/merged_manifest/debug/AndroidManifest.xml:18:13-36
+332            <intent-filter>
+332-->[:flutter_foreground_task] /Users/macbookprom2/Downloads/go_babi_ff_drive/build/flutter_foreground_task/intermediates/merged_manifest/debug/AndroidManifest.xml:19:13-22:29
+333                <action android:name="android.intent.action.BOOT_COMPLETED" />
+333-->[:flutter_background_service_android] /Users/macbookprom2/Downloads/go_babi_ff_drive/build/flutter_background_service_android/intermediates/merged_manifest/debug/AndroidManifest.xml:29:17-79
+333-->[:flutter_background_service_android] /Users/macbookprom2/Downloads/go_babi_ff_drive/build/flutter_background_service_android/intermediates/merged_manifest/debug/AndroidManifest.xml:29:25-76
+334                <action android:name="android.intent.action.MY_PACKAGE_REPLACED" />
+334-->[:flutter_background_service_android] /Users/macbookprom2/Downloads/go_babi_ff_drive/build/flutter_background_service_android/intermediates/merged_manifest/debug/AndroidManifest.xml:31:17-84
+334-->[:flutter_background_service_android] /Users/macbookprom2/Downloads/go_babi_ff_drive/build/flutter_background_service_android/intermediates/merged_manifest/debug/AndroidManifest.xml:31:25-81
+335            </intent-filter>
+336        </receiver>
+337        <receiver
+337-->[:flutter_foreground_task] /Users/macbookprom2/Downloads/go_babi_ff_drive/build/flutter_foreground_task/intermediates/merged_manifest/debug/AndroidManifest.xml:24:9-27:40
+338            android:name="com.pravera.flutter_foreground_task.service.RestartReceiver"
+338-->[:flutter_foreground_task] /Users/macbookprom2/Downloads/go_babi_ff_drive/build/flutter_foreground_task/intermediates/merged_manifest/debug/AndroidManifest.xml:25:13-87
+339            android:enabled="true"
+339-->[:flutter_foreground_task] /Users/macbookprom2/Downloads/go_babi_ff_drive/build/flutter_foreground_task/intermediates/merged_manifest/debug/AndroidManifest.xml:26:13-35
+340            android:exported="false" />
+340-->[:flutter_foreground_task] /Users/macbookprom2/Downloads/go_babi_ff_drive/build/flutter_foreground_task/intermediates/merged_manifest/debug/AndroidManifest.xml:27:13-37
+341
+342        <activity android:name="com.eopeter.fluttermapboxnavigation.activity.NavigationActivity" />
+342-->[:flutter_mapbox_navigation] /Users/macbookprom2/Downloads/go_babi_ff_drive/build/flutter_mapbox_navigation/intermediates/merged_manifest/debug/AndroidManifest.xml:14:9-100
+342-->[:flutter_mapbox_navigation] /Users/macbookprom2/Downloads/go_babi_ff_drive/build/flutter_mapbox_navigation/intermediates/merged_manifest/debug/AndroidManifest.xml:14:19-97
+343
+344        <provider
+344-->[:image_picker_android] /Users/macbookprom2/Downloads/go_babi_ff_drive/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:10:9-18:20
+345            android:name="io.flutter.plugins.imagepicker.ImagePickerFileProvider"
+345-->[:image_picker_android] /Users/macbookprom2/Downloads/go_babi_ff_drive/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:11:13-82
+346            android:authorities="com.gobabidrive.flutter.image_provider"
+346-->[:image_picker_android] /Users/macbookprom2/Downloads/go_babi_ff_drive/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:12:13-74
+347            android:exported="false"
+347-->[:image_picker_android] /Users/macbookprom2/Downloads/go_babi_ff_drive/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:13:13-37
+348            android:grantUriPermissions="true" >
+348-->[:image_picker_android] /Users/macbookprom2/Downloads/go_babi_ff_drive/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:14:13-47
+349            <meta-data
+349-->[:image_picker_android] /Users/macbookprom2/Downloads/go_babi_ff_drive/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:15:13-17:75
+350                android:name="android.support.FILE_PROVIDER_PATHS"
+350-->[:image_picker_android] /Users/macbookprom2/Downloads/go_babi_ff_drive/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:16:17-67
+351                android:resource="@xml/flutter_image_picker_file_paths" />
+351-->[:image_picker_android] /Users/macbookprom2/Downloads/go_babi_ff_drive/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:17:17-72
+352        </provider>
+353
+354        <service
+354-->[:geolocator_android] /Users/macbookprom2/Downloads/go_babi_ff_drive/build/geolocator_android/intermediates/merged_manifest/debug/AndroidManifest.xml:10:9-14:56
+355            android:name="com.baseflow.geolocator.GeolocatorLocationService"
+355-->[:geolocator_android] /Users/macbookprom2/Downloads/go_babi_ff_drive/build/geolocator_android/intermediates/merged_manifest/debug/AndroidManifest.xml:11:13-77
+356            android:enabled="true"
+356-->[:geolocator_android] /Users/macbookprom2/Downloads/go_babi_ff_drive/build/geolocator_android/intermediates/merged_manifest/debug/AndroidManifest.xml:12:13-35
+357            android:exported="false"
+357-->[:geolocator_android] /Users/macbookprom2/Downloads/go_babi_ff_drive/build/geolocator_android/intermediates/merged_manifest/debug/AndroidManifest.xml:13:13-37
+358            android:foregroundServiceType="location" />
+358-->[:geolocator_android] /Users/macbookprom2/Downloads/go_babi_ff_drive/build/geolocator_android/intermediates/merged_manifest/debug/AndroidManifest.xml:14:13-53
+359        <service
+359-->[:location] /Users/macbookprom2/Downloads/go_babi_ff_drive/build/location/intermediates/merged_manifest/debug/AndroidManifest.xml:13:9-17:56
+360            android:name="com.lyokone.location.FlutterLocationService"
+360-->[:location] /Users/macbookprom2/Downloads/go_babi_ff_drive/build/location/intermediates/merged_manifest/debug/AndroidManifest.xml:14:13-71
+361            android:enabled="true"
+361-->[:location] /Users/macbookprom2/Downloads/go_babi_ff_drive/build/location/intermediates/merged_manifest/debug/AndroidManifest.xml:15:13-35
+362            android:exported="false"
+362-->[:location] /Users/macbookprom2/Downloads/go_babi_ff_drive/build/location/intermediates/merged_manifest/debug/AndroidManifest.xml:16:13-37
+363            android:foregroundServiceType="location" />
+363-->[:location] /Users/macbookprom2/Downloads/go_babi_ff_drive/build/location/intermediates/merged_manifest/debug/AndroidManifest.xml:17:13-53
+364
+365        <activity
+365-->[:url_launcher_android] /Users/macbookprom2/Downloads/go_babi_ff_drive/build/url_launcher_android/intermediates/merged_manifest/debug/AndroidManifest.xml:10:9-13:74
+366            android:name="io.flutter.plugins.urllauncher.WebViewActivity"
+366-->[:url_launcher_android] /Users/macbookprom2/Downloads/go_babi_ff_drive/build/url_launcher_android/intermediates/merged_manifest/debug/AndroidManifest.xml:11:13-74
+367            android:exported="false"
+367-->[:url_launcher_android] /Users/macbookprom2/Downloads/go_babi_ff_drive/build/url_launcher_android/intermediates/merged_manifest/debug/AndroidManifest.xml:12:13-37
+368            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
+368-->[:url_launcher_android] /Users/macbookprom2/Downloads/go_babi_ff_drive/build/url_launcher_android/intermediates/merged_manifest/debug/AndroidManifest.xml:13:13-71
+369
+370        <receiver
+370-->[com.onesignal:notifications:5.1.17] /Users/macbookprom2/.gradle/caches/transforms-3/580f7feaca18b0f636369a8ecd7ec883/transformed/jetified-notifications-5.1.17/AndroidManifest.xml:49:9-60:20
+371            android:name="com.onesignal.notifications.receivers.FCMBroadcastReceiver"
+371-->[com.onesignal:notifications:5.1.17] /Users/macbookprom2/.gradle/caches/transforms-3/580f7feaca18b0f636369a8ecd7ec883/transformed/jetified-notifications-5.1.17/AndroidManifest.xml:50:13-86
+372            android:exported="true"
+372-->[com.onesignal:notifications:5.1.17] /Users/macbookprom2/.gradle/caches/transforms-3/580f7feaca18b0f636369a8ecd7ec883/transformed/jetified-notifications-5.1.17/AndroidManifest.xml:51:13-36
+373            android:permission="com.google.android.c2dm.permission.SEND" >
+373-->[com.onesignal:notifications:5.1.17] /Users/macbookprom2/.gradle/caches/transforms-3/580f7feaca18b0f636369a8ecd7ec883/transformed/jetified-notifications-5.1.17/AndroidManifest.xml:52:13-73
+374
+375            <!-- High priority so OneSignal payloads can be filtered from other FCM receivers -->
+376            <intent-filter android:priority="999" >
+376-->[com.onesignal:notifications:5.1.17] /Users/macbookprom2/.gradle/caches/transforms-3/580f7feaca18b0f636369a8ecd7ec883/transformed/jetified-notifications-5.1.17/AndroidManifest.xml:55:13-59:29
+376-->[com.onesignal:notifications:5.1.17] /Users/macbookprom2/.gradle/caches/transforms-3/580f7feaca18b0f636369a8ecd7ec883/transformed/jetified-notifications-5.1.17/AndroidManifest.xml:55:28-50
+377                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+377-->[com.onesignal:notifications:5.1.17] /Users/macbookprom2/.gradle/caches/transforms-3/580f7feaca18b0f636369a8ecd7ec883/transformed/jetified-notifications-5.1.17/AndroidManifest.xml:56:17-81
+377-->[com.onesignal:notifications:5.1.17] /Users/macbookprom2/.gradle/caches/transforms-3/580f7feaca18b0f636369a8ecd7ec883/transformed/jetified-notifications-5.1.17/AndroidManifest.xml:56:25-78
+378
+379                <category android:name="com.gobabidrive" />
+379-->[com.onesignal:notifications:5.1.17] /Users/macbookprom2/.gradle/caches/transforms-3/580f7feaca18b0f636369a8ecd7ec883/transformed/jetified-notifications-5.1.17/AndroidManifest.xml:58:17-61
+379-->[com.onesignal:notifications:5.1.17] /Users/macbookprom2/.gradle/caches/transforms-3/580f7feaca18b0f636369a8ecd7ec883/transformed/jetified-notifications-5.1.17/AndroidManifest.xml:58:27-58
+380            </intent-filter>
+381        </receiver>
+382
+383        <service
+383-->[com.onesignal:notifications:5.1.17] /Users/macbookprom2/.gradle/caches/transforms-3/580f7feaca18b0f636369a8ecd7ec883/transformed/jetified-notifications-5.1.17/AndroidManifest.xml:62:9-68:19
+384            android:name="com.onesignal.notifications.services.HmsMessageServiceOneSignal"
+384-->[com.onesignal:notifications:5.1.17] /Users/macbookprom2/.gradle/caches/transforms-3/580f7feaca18b0f636369a8ecd7ec883/transformed/jetified-notifications-5.1.17/AndroidManifest.xml:63:13-91
+385            android:exported="false" >
+385-->[com.onesignal:notifications:5.1.17] /Users/macbookprom2/.gradle/caches/transforms-3/580f7feaca18b0f636369a8ecd7ec883/transformed/jetified-notifications-5.1.17/AndroidManifest.xml:64:13-37
+386            <intent-filter>
+386-->[com.onesignal:notifications:5.1.17] /Users/macbookprom2/.gradle/caches/transforms-3/580f7feaca18b0f636369a8ecd7ec883/transformed/jetified-notifications-5.1.17/AndroidManifest.xml:65:13-67:29
+387                <action android:name="com.huawei.push.action.MESSAGING_EVENT" />
+387-->[com.onesignal:notifications:5.1.17] /Users/macbookprom2/.gradle/caches/transforms-3/580f7feaca18b0f636369a8ecd7ec883/transformed/jetified-notifications-5.1.17/AndroidManifest.xml:66:17-81
+387-->[com.onesignal:notifications:5.1.17] /Users/macbookprom2/.gradle/caches/transforms-3/580f7feaca18b0f636369a8ecd7ec883/transformed/jetified-notifications-5.1.17/AndroidManifest.xml:66:25-78
+388            </intent-filter>
+389        </service>
+390
+391        <activity
+391-->[com.onesignal:notifications:5.1.17] /Users/macbookprom2/.gradle/caches/transforms-3/580f7feaca18b0f636369a8ecd7ec883/transformed/jetified-notifications-5.1.17/AndroidManifest.xml:70:9-78:20
+392            android:name="com.onesignal.notifications.activities.NotificationOpenedActivityHMS"
+392-->[com.onesignal:notifications:5.1.17] /Users/macbookprom2/.gradle/caches/transforms-3/580f7feaca18b0f636369a8ecd7ec883/transformed/jetified-notifications-5.1.17/AndroidManifest.xml:71:13-96
+393            android:exported="true"
+393-->[com.onesignal:notifications:5.1.17] /Users/macbookprom2/.gradle/caches/transforms-3/580f7feaca18b0f636369a8ecd7ec883/transformed/jetified-notifications-5.1.17/AndroidManifest.xml:72:13-36
+394            android:noHistory="true"
+394-->[com.onesignal:notifications:5.1.17] /Users/macbookprom2/.gradle/caches/transforms-3/580f7feaca18b0f636369a8ecd7ec883/transformed/jetified-notifications-5.1.17/AndroidManifest.xml:73:13-37
+395            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+395-->[com.onesignal:notifications:5.1.17] /Users/macbookprom2/.gradle/caches/transforms-3/580f7feaca18b0f636369a8ecd7ec883/transformed/jetified-notifications-5.1.17/AndroidManifest.xml:74:13-72
+396            <intent-filter>
+396-->[com.onesignal:notifications:5.1.17] /Users/macbookprom2/.gradle/caches/transforms-3/580f7feaca18b0f636369a8ecd7ec883/transformed/jetified-notifications-5.1.17/AndroidManifest.xml:75:13-77:29
+397                <action android:name="android.intent.action.VIEW" />
+397-->/Users/macbookprom2/Downloads/go_babi_ff_drive/android/app/src/main/AndroidManifest.xml:63:17-69
+397-->/Users/macbookprom2/Downloads/go_babi_ff_drive/android/app/src/main/AndroidManifest.xml:63:25-66
+398            </intent-filter>
+399        </activity>
+400
+401        <receiver
+401-->[com.onesignal:notifications:5.1.17] /Users/macbookprom2/.gradle/caches/transforms-3/580f7feaca18b0f636369a8ecd7ec883/transformed/jetified-notifications-5.1.17/AndroidManifest.xml:80:9-82:39
+402            android:name="com.onesignal.notifications.receivers.NotificationDismissReceiver"
+402-->[com.onesignal:notifications:5.1.17] /Users/macbookprom2/.gradle/caches/transforms-3/580f7feaca18b0f636369a8ecd7ec883/transformed/jetified-notifications-5.1.17/AndroidManifest.xml:81:13-93
+403            android:exported="true" />
+403-->[com.onesignal:notifications:5.1.17] /Users/macbookprom2/.gradle/caches/transforms-3/580f7feaca18b0f636369a8ecd7ec883/transformed/jetified-notifications-5.1.17/AndroidManifest.xml:82:13-36
+404        <receiver
+404-->[com.onesignal:notifications:5.1.17] /Users/macbookprom2/.gradle/caches/transforms-3/580f7feaca18b0f636369a8ecd7ec883/transformed/jetified-notifications-5.1.17/AndroidManifest.xml:83:9-90:20
+405            android:name="com.onesignal.notifications.receivers.BootUpReceiver"
+405-->[com.onesignal:notifications:5.1.17] /Users/macbookprom2/.gradle/caches/transforms-3/580f7feaca18b0f636369a8ecd7ec883/transformed/jetified-notifications-5.1.17/AndroidManifest.xml:84:13-80
+406            android:exported="true" >
+406-->[com.onesignal:notifications:5.1.17] /Users/macbookprom2/.gradle/caches/transforms-3/580f7feaca18b0f636369a8ecd7ec883/transformed/jetified-notifications-5.1.17/AndroidManifest.xml:85:13-36
+407            <intent-filter>
+407-->[com.onesignal:notifications:5.1.17] /Users/macbookprom2/.gradle/caches/transforms-3/580f7feaca18b0f636369a8ecd7ec883/transformed/jetified-notifications-5.1.17/AndroidManifest.xml:86:13-89:29
+408                <action android:name="android.intent.action.BOOT_COMPLETED" />
+408-->[:flutter_background_service_android] /Users/macbookprom2/Downloads/go_babi_ff_drive/build/flutter_background_service_android/intermediates/merged_manifest/debug/AndroidManifest.xml:29:17-79
+408-->[:flutter_background_service_android] /Users/macbookprom2/Downloads/go_babi_ff_drive/build/flutter_background_service_android/intermediates/merged_manifest/debug/AndroidManifest.xml:29:25-76
+409                <action android:name="android.intent.action.QUICKBOOT_POWERON" />
+409-->[:flutter_background_service_android] /Users/macbookprom2/Downloads/go_babi_ff_drive/build/flutter_background_service_android/intermediates/merged_manifest/debug/AndroidManifest.xml:30:17-82
+409-->[:flutter_background_service_android] /Users/macbookprom2/Downloads/go_babi_ff_drive/build/flutter_background_service_android/intermediates/merged_manifest/debug/AndroidManifest.xml:30:25-79
+410            </intent-filter>
+411        </receiver>
+412        <receiver
+412-->[com.onesignal:notifications:5.1.17] /Users/macbookprom2/.gradle/caches/transforms-3/580f7feaca18b0f636369a8ecd7ec883/transformed/jetified-notifications-5.1.17/AndroidManifest.xml:91:9-97:20
+413            android:name="com.onesignal.notifications.receivers.UpgradeReceiver"
+413-->[com.onesignal:notifications:5.1.17] /Users/macbookprom2/.gradle/caches/transforms-3/580f7feaca18b0f636369a8ecd7ec883/transformed/jetified-notifications-5.1.17/AndroidManifest.xml:92:13-81
+414            android:exported="true" >
+414-->[com.onesignal:notifications:5.1.17] /Users/macbookprom2/.gradle/caches/transforms-3/580f7feaca18b0f636369a8ecd7ec883/transformed/jetified-notifications-5.1.17/AndroidManifest.xml:93:13-36
+415            <intent-filter>
+415-->[com.onesignal:notifications:5.1.17] /Users/macbookprom2/.gradle/caches/transforms-3/580f7feaca18b0f636369a8ecd7ec883/transformed/jetified-notifications-5.1.17/AndroidManifest.xml:94:13-96:29
+416                <action android:name="android.intent.action.MY_PACKAGE_REPLACED" />
+416-->[:flutter_background_service_android] /Users/macbookprom2/Downloads/go_babi_ff_drive/build/flutter_background_service_android/intermediates/merged_manifest/debug/AndroidManifest.xml:31:17-84
+416-->[:flutter_background_service_android] /Users/macbookprom2/Downloads/go_babi_ff_drive/build/flutter_background_service_android/intermediates/merged_manifest/debug/AndroidManifest.xml:31:25-81
+417            </intent-filter>
+418        </receiver>
+419
+420        <activity
+420-->[com.onesignal:notifications:5.1.17] /Users/macbookprom2/.gradle/caches/transforms-3/580f7feaca18b0f636369a8ecd7ec883/transformed/jetified-notifications-5.1.17/AndroidManifest.xml:99:9-105:75
+421            android:name="com.onesignal.notifications.activities.NotificationOpenedActivity"
+421-->[com.onesignal:notifications:5.1.17] /Users/macbookprom2/.gradle/caches/transforms-3/580f7feaca18b0f636369a8ecd7ec883/transformed/jetified-notifications-5.1.17/AndroidManifest.xml:100:13-93
+422            android:excludeFromRecents="true"
+422-->[com.onesignal:notifications:5.1.17] /Users/macbookprom2/.gradle/caches/transforms-3/580f7feaca18b0f636369a8ecd7ec883/transformed/jetified-notifications-5.1.17/AndroidManifest.xml:101:13-46
+423            android:exported="true"
+423-->[com.onesignal:notifications:5.1.17] /Users/macbookprom2/.gradle/caches/transforms-3/580f7feaca18b0f636369a8ecd7ec883/transformed/jetified-notifications-5.1.17/AndroidManifest.xml:102:13-36
+424            android:noHistory="true"
+424-->[com.onesignal:notifications:5.1.17] /Users/macbookprom2/.gradle/caches/transforms-3/580f7feaca18b0f636369a8ecd7ec883/transformed/jetified-notifications-5.1.17/AndroidManifest.xml:103:13-37
+425            android:taskAffinity=""
+425-->[com.onesignal:notifications:5.1.17] /Users/macbookprom2/.gradle/caches/transforms-3/580f7feaca18b0f636369a8ecd7ec883/transformed/jetified-notifications-5.1.17/AndroidManifest.xml:104:13-36
+426            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+426-->[com.onesignal:notifications:5.1.17] /Users/macbookprom2/.gradle/caches/transforms-3/580f7feaca18b0f636369a8ecd7ec883/transformed/jetified-notifications-5.1.17/AndroidManifest.xml:105:13-72
+427        <activity
+427-->[com.onesignal:notifications:5.1.17] /Users/macbookprom2/.gradle/caches/transforms-3/580f7feaca18b0f636369a8ecd7ec883/transformed/jetified-notifications-5.1.17/AndroidManifest.xml:106:9-111:75
+428            android:name="com.onesignal.notifications.activities.NotificationOpenedActivityAndroid22AndOlder"
+428-->[com.onesignal:notifications:5.1.17] /Users/macbookprom2/.gradle/caches/transforms-3/580f7feaca18b0f636369a8ecd7ec883/transformed/jetified-notifications-5.1.17/AndroidManifest.xml:107:13-110
+429            android:excludeFromRecents="true"
+429-->[com.onesignal:notifications:5.1.17] /Users/macbookprom2/.gradle/caches/transforms-3/580f7feaca18b0f636369a8ecd7ec883/transformed/jetified-notifications-5.1.17/AndroidManifest.xml:108:13-46
+430            android:exported="true"
+430-->[com.onesignal:notifications:5.1.17] /Users/macbookprom2/.gradle/caches/transforms-3/580f7feaca18b0f636369a8ecd7ec883/transformed/jetified-notifications-5.1.17/AndroidManifest.xml:109:13-36
+431            android:noHistory="true"
+431-->[com.onesignal:notifications:5.1.17] /Users/macbookprom2/.gradle/caches/transforms-3/580f7feaca18b0f636369a8ecd7ec883/transformed/jetified-notifications-5.1.17/AndroidManifest.xml:110:13-37
+432            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+432-->[com.onesignal:notifications:5.1.17] /Users/macbookprom2/.gradle/caches/transforms-3/580f7feaca18b0f636369a8ecd7ec883/transformed/jetified-notifications-5.1.17/AndroidManifest.xml:111:13-72
+433
+434        <service
+434-->[com.onesignal:core:5.1.17] /Users/macbookprom2/.gradle/caches/transforms-3/d9540bf7cf8307d9cded0ae731772e6f/transformed/jetified-core-5.1.17/AndroidManifest.xml:13:9-16:43
+435            android:name="com.onesignal.core.services.SyncService"
+435-->[com.onesignal:core:5.1.17] /Users/macbookprom2/.gradle/caches/transforms-3/d9540bf7cf8307d9cded0ae731772e6f/transformed/jetified-core-5.1.17/AndroidManifest.xml:14:13-67
+436            android:exported="false"
+436-->[com.onesignal:core:5.1.17] /Users/macbookprom2/.gradle/caches/transforms-3/d9540bf7cf8307d9cded0ae731772e6f/transformed/jetified-core-5.1.17/AndroidManifest.xml:15:13-37
+437            android:stopWithTask="true" />
+437-->[com.onesignal:core:5.1.17] /Users/macbookprom2/.gradle/caches/transforms-3/d9540bf7cf8307d9cded0ae731772e6f/transformed/jetified-core-5.1.17/AndroidManifest.xml:16:13-40
+438        <service
+438-->[com.onesignal:core:5.1.17] /Users/macbookprom2/.gradle/caches/transforms-3/d9540bf7cf8307d9cded0ae731772e6f/transformed/jetified-core-5.1.17/AndroidManifest.xml:17:9-20:72
+439            android:name="com.onesignal.core.services.SyncJobService"
+439-->[com.onesignal:core:5.1.17] /Users/macbookprom2/.gradle/caches/transforms-3/d9540bf7cf8307d9cded0ae731772e6f/transformed/jetified-core-5.1.17/AndroidManifest.xml:18:13-70
+440            android:exported="false"
+440-->[com.onesignal:core:5.1.17] /Users/macbookprom2/.gradle/caches/transforms-3/d9540bf7cf8307d9cded0ae731772e6f/transformed/jetified-core-5.1.17/AndroidManifest.xml:19:13-37
+441            android:permission="android.permission.BIND_JOB_SERVICE" />
+441-->[com.onesignal:core:5.1.17] /Users/macbookprom2/.gradle/caches/transforms-3/d9540bf7cf8307d9cded0ae731772e6f/transformed/jetified-core-5.1.17/AndroidManifest.xml:20:13-69
+442
+443        <activity
+443-->[com.onesignal:core:5.1.17] /Users/macbookprom2/.gradle/caches/transforms-3/d9540bf7cf8307d9cded0ae731772e6f/transformed/jetified-core-5.1.17/AndroidManifest.xml:22:9-25:75
+444            android:name="com.onesignal.core.activities.PermissionsActivity"
+444-->[com.onesignal:core:5.1.17] /Users/macbookprom2/.gradle/caches/transforms-3/d9540bf7cf8307d9cded0ae731772e6f/transformed/jetified-core-5.1.17/AndroidManifest.xml:23:13-77
+445            android:exported="false"
+445-->[com.onesignal:core:5.1.17] /Users/macbookprom2/.gradle/caches/transforms-3/d9540bf7cf8307d9cded0ae731772e6f/transformed/jetified-core-5.1.17/AndroidManifest.xml:24:13-37
+446            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+446-->[com.onesignal:core:5.1.17] /Users/macbookprom2/.gradle/caches/transforms-3/d9540bf7cf8307d9cded0ae731772e6f/transformed/jetified-core-5.1.17/AndroidManifest.xml:25:13-72
+447
+448        <uses-library
+448-->[androidx.window:window:1.2.0] /Users/macbookprom2/.gradle/caches/transforms-3/a82b715a6dc7b9a7173e15dc3049d4cd/transformed/jetified-window-1.2.0/AndroidManifest.xml:23:9-25:40
+449            android:name="androidx.window.extensions"
+449-->[androidx.window:window:1.2.0] /Users/macbookprom2/.gradle/caches/transforms-3/a82b715a6dc7b9a7173e15dc3049d4cd/transformed/jetified-window-1.2.0/AndroidManifest.xml:24:13-54
+450            android:required="false" />
+450-->[androidx.window:window:1.2.0] /Users/macbookprom2/.gradle/caches/transforms-3/a82b715a6dc7b9a7173e15dc3049d4cd/transformed/jetified-window-1.2.0/AndroidManifest.xml:25:13-37
+451        <uses-library
+451-->[androidx.window:window:1.2.0] /Users/macbookprom2/.gradle/caches/transforms-3/a82b715a6dc7b9a7173e15dc3049d4cd/transformed/jetified-window-1.2.0/AndroidManifest.xml:26:9-28:40
+452            android:name="androidx.window.sidecar"
+452-->[androidx.window:window:1.2.0] /Users/macbookprom2/.gradle/caches/transforms-3/a82b715a6dc7b9a7173e15dc3049d4cd/transformed/jetified-window-1.2.0/AndroidManifest.xml:27:13-51
+453            android:required="false" />
+453-->[androidx.window:window:1.2.0] /Users/macbookprom2/.gradle/caches/transforms-3/a82b715a6dc7b9a7173e15dc3049d4cd/transformed/jetified-window-1.2.0/AndroidManifest.xml:28:13-37
+454
+455        <provider
+455-->[com.mapbox.navigation:core:2.16.0] /Users/macbookprom2/.gradle/caches/transforms-3/e8e336a1c7b00f6bb0e554cd7b943347/transformed/jetified-core-2.16.0/AndroidManifest.xml:19:9-27:20
+456            android:name="androidx.startup.InitializationProvider"
+456-->[com.mapbox.navigation:core:2.16.0] /Users/macbookprom2/.gradle/caches/transforms-3/e8e336a1c7b00f6bb0e554cd7b943347/transformed/jetified-core-2.16.0/AndroidManifest.xml:20:13-67
+457            android:authorities="com.gobabidrive.androidx-startup"
+457-->[com.mapbox.navigation:core:2.16.0] /Users/macbookprom2/.gradle/caches/transforms-3/e8e336a1c7b00f6bb0e554cd7b943347/transformed/jetified-core-2.16.0/AndroidManifest.xml:21:13-68
+458            android:exported="false" >
+458-->[com.mapbox.navigation:core:2.16.0] /Users/macbookprom2/.gradle/caches/transforms-3/e8e336a1c7b00f6bb0e554cd7b943347/transformed/jetified-core-2.16.0/AndroidManifest.xml:22:13-37
+459            <meta-data
+459-->[com.mapbox.navigation:core:2.16.0] /Users/macbookprom2/.gradle/caches/transforms-3/e8e336a1c7b00f6bb0e554cd7b943347/transformed/jetified-core-2.16.0/AndroidManifest.xml:24:13-26:52
+460                android:name="com.mapbox.navigation.core.internal.MapboxNavigationSDKInitializer"
+460-->[com.mapbox.navigation:core:2.16.0] /Users/macbookprom2/.gradle/caches/transforms-3/e8e336a1c7b00f6bb0e554cd7b943347/transformed/jetified-core-2.16.0/AndroidManifest.xml:25:17-98
+461                android:value="androidx.startup" />
+461-->[com.mapbox.navigation:core:2.16.0] /Users/macbookprom2/.gradle/caches/transforms-3/e8e336a1c7b00f6bb0e554cd7b943347/transformed/jetified-core-2.16.0/AndroidManifest.xml:26:17-49
+462            <meta-data
+462-->[androidx.emoji2:emoji2:1.3.0] /Users/macbookprom2/.gradle/caches/transforms-3/48e4bcf4d650ee5a9f1dc820f4069c68/transformed/jetified-emoji2-1.3.0/AndroidManifest.xml:29:13-31:52
+463                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+463-->[androidx.emoji2:emoji2:1.3.0] /Users/macbookprom2/.gradle/caches/transforms-3/48e4bcf4d650ee5a9f1dc820f4069c68/transformed/jetified-emoji2-1.3.0/AndroidManifest.xml:30:17-75
+464                android:value="androidx.startup" />
+464-->[androidx.emoji2:emoji2:1.3.0] /Users/macbookprom2/.gradle/caches/transforms-3/48e4bcf4d650ee5a9f1dc820f4069c68/transformed/jetified-emoji2-1.3.0/AndroidManifest.xml:31:17-49
+465            <meta-data
+465-->[androidx.work:work-runtime:2.8.1] /Users/macbookprom2/.gradle/caches/transforms-3/14a1e67ad72a18043172c343daee2ab6/transformed/work-runtime-2.8.1/AndroidManifest.xml:34:13-36:52
+466                android:name="androidx.work.WorkManagerInitializer"
+466-->[androidx.work:work-runtime:2.8.1] /Users/macbookprom2/.gradle/caches/transforms-3/14a1e67ad72a18043172c343daee2ab6/transformed/work-runtime-2.8.1/AndroidManifest.xml:35:17-68
+467                android:value="androidx.startup" />
+467-->[androidx.work:work-runtime:2.8.1] /Users/macbookprom2/.gradle/caches/transforms-3/14a1e67ad72a18043172c343daee2ab6/transformed/work-runtime-2.8.1/AndroidManifest.xml:36:17-49
+468            <meta-data
+468-->[androidx.lifecycle:lifecycle-process:2.7.0] /Users/macbookprom2/.gradle/caches/transforms-3/99cc5466ff3643c225b1ede36f9fd8d0/transformed/jetified-lifecycle-process-2.7.0/AndroidManifest.xml:29:13-31:52
+469                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+469-->[androidx.lifecycle:lifecycle-process:2.7.0] /Users/macbookprom2/.gradle/caches/transforms-3/99cc5466ff3643c225b1ede36f9fd8d0/transformed/jetified-lifecycle-process-2.7.0/AndroidManifest.xml:30:17-78
+470                android:value="androidx.startup" /> <!-- This entry makes MapboxNavigationNativeInitializer discoverable. -->
+470-->[androidx.lifecycle:lifecycle-process:2.7.0] /Users/macbookprom2/.gradle/caches/transforms-3/99cc5466ff3643c225b1ede36f9fd8d0/transformed/jetified-lifecycle-process-2.7.0/AndroidManifest.xml:31:17-49
+471            <meta-data
+471-->[com.mapbox.navigator:mapbox-navigation-native:157.0.0] /Users/macbookprom2/.gradle/caches/transforms-3/85a6735ad85f56e8c7deee21263db595/transformed/jetified-mapbox-navigation-native-157.0.0/AndroidManifest.xml:20:13-22:52
+472                android:name="com.mapbox.navigator.MapboxNavigationNativeInitializer"
+472-->[com.mapbox.navigator:mapbox-navigation-native:157.0.0] /Users/macbookprom2/.gradle/caches/transforms-3/85a6735ad85f56e8c7deee21263db595/transformed/jetified-mapbox-navigation-native-157.0.0/AndroidManifest.xml:21:17-86
+473                android:value="androidx.startup" />
+473-->[com.mapbox.navigator:mapbox-navigation-native:157.0.0] /Users/macbookprom2/.gradle/caches/transforms-3/85a6735ad85f56e8c7deee21263db595/transformed/jetified-mapbox-navigation-native-157.0.0/AndroidManifest.xml:22:17-49
+474            <meta-data
+474-->[com.mapbox.maps:android-core:10.16.0] /Users/macbookprom2/.gradle/caches/transforms-3/3a2282ea0177c3535733ed6189318851/transformed/jetified-android-core-10.16.0/AndroidManifest.xml:27:13-29:52
+475                android:name="com.mapbox.maps.loader.MapboxMapsInitializer"
+475-->[com.mapbox.maps:android-core:10.16.0] /Users/macbookprom2/.gradle/caches/transforms-3/3a2282ea0177c3535733ed6189318851/transformed/jetified-android-core-10.16.0/AndroidManifest.xml:28:17-76
+476                android:value="androidx.startup" /> <!-- This entry makes MapboxSDKCommonInitializer discoverable. -->
+476-->[com.mapbox.maps:android-core:10.16.0] /Users/macbookprom2/.gradle/caches/transforms-3/3a2282ea0177c3535733ed6189318851/transformed/jetified-android-core-10.16.0/AndroidManifest.xml:29:17-49
+477            <meta-data
+477-->[com.mapbox.common:common:23.8.0] /Users/macbookprom2/.gradle/caches/transforms-3/af66eb4245680e0971f88845c9d51804/transformed/jetified-common-23.8.0/AndroidManifest.xml:21:13-23:52
+478                android:name="com.mapbox.common.MapboxSDKCommonInitializer"
+478-->[com.mapbox.common:common:23.8.0] /Users/macbookprom2/.gradle/caches/transforms-3/af66eb4245680e0971f88845c9d51804/transformed/jetified-common-23.8.0/AndroidManifest.xml:22:17-76
+479                android:value="androidx.startup" />
+479-->[com.mapbox.common:common:23.8.0] /Users/macbookprom2/.gradle/caches/transforms-3/af66eb4245680e0971f88845c9d51804/transformed/jetified-common-23.8.0/AndroidManifest.xml:23:17-49
+480            <meta-data
+480-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/macbookprom2/.gradle/caches/transforms-3/a3136382d4419f60d535b7fff4cd731c/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:29:13-31:52
+481                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+481-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/macbookprom2/.gradle/caches/transforms-3/a3136382d4419f60d535b7fff4cd731c/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:30:17-85
+482                android:value="androidx.startup" />
+482-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/macbookprom2/.gradle/caches/transforms-3/a3136382d4419f60d535b7fff4cd731c/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:31:17-49
+483        </provider>
+484
+485        <service
+485-->[com.mapbox.navigation:core:2.16.0] /Users/macbookprom2/.gradle/caches/transforms-3/e8e336a1c7b00f6bb0e554cd7b943347/transformed/jetified-core-2.16.0/AndroidManifest.xml:29:9-31:56
+486            android:name="com.mapbox.navigation.core.trip.service.NavigationNotificationService"
+486-->[com.mapbox.navigation:core:2.16.0] /Users/macbookprom2/.gradle/caches/transforms-3/e8e336a1c7b00f6bb0e554cd7b943347/transformed/jetified-core-2.16.0/AndroidManifest.xml:30:13-97
+487            android:foregroundServiceType="location" />
+487-->[com.mapbox.navigation:core:2.16.0] /Users/macbookprom2/.gradle/caches/transforms-3/e8e336a1c7b00f6bb0e554cd7b943347/transformed/jetified-core-2.16.0/AndroidManifest.xml:31:13-53
+488
+489        <receiver
+489-->[com.google.firebase:firebase-messaging:23.4.1] /Users/macbookprom2/.gradle/caches/transforms-3/d3af869364f346543208745bc5aa521f/transformed/jetified-firebase-messaging-23.4.1/AndroidManifest.xml:29:9-40:20
+490            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+490-->[com.google.firebase:firebase-messaging:23.4.1] /Users/macbookprom2/.gradle/caches/transforms-3/d3af869364f346543208745bc5aa521f/transformed/jetified-firebase-messaging-23.4.1/AndroidManifest.xml:30:13-78
+491            android:exported="true"
+491-->[com.google.firebase:firebase-messaging:23.4.1] /Users/macbookprom2/.gradle/caches/transforms-3/d3af869364f346543208745bc5aa521f/transformed/jetified-firebase-messaging-23.4.1/AndroidManifest.xml:31:13-36
+492            android:permission="com.google.android.c2dm.permission.SEND" >
+492-->[com.google.firebase:firebase-messaging:23.4.1] /Users/macbookprom2/.gradle/caches/transforms-3/d3af869364f346543208745bc5aa521f/transformed/jetified-firebase-messaging-23.4.1/AndroidManifest.xml:32:13-73
+493            <intent-filter>
+493-->[com.google.firebase:firebase-messaging:23.4.1] /Users/macbookprom2/.gradle/caches/transforms-3/d3af869364f346543208745bc5aa521f/transformed/jetified-firebase-messaging-23.4.1/AndroidManifest.xml:33:13-35:29
+494                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+494-->[com.onesignal:notifications:5.1.17] /Users/macbookprom2/.gradle/caches/transforms-3/580f7feaca18b0f636369a8ecd7ec883/transformed/jetified-notifications-5.1.17/AndroidManifest.xml:56:17-81
+494-->[com.onesignal:notifications:5.1.17] /Users/macbookprom2/.gradle/caches/transforms-3/580f7feaca18b0f636369a8ecd7ec883/transformed/jetified-notifications-5.1.17/AndroidManifest.xml:56:25-78
+495            </intent-filter>
+496
+497            <meta-data
+497-->[com.google.firebase:firebase-messaging:23.4.1] /Users/macbookprom2/.gradle/caches/transforms-3/d3af869364f346543208745bc5aa521f/transformed/jetified-firebase-messaging-23.4.1/AndroidManifest.xml:37:13-39:40
+498                android:name="com.google.android.gms.cloudmessaging.FINISHED_AFTER_HANDLED"
+498-->[com.google.firebase:firebase-messaging:23.4.1] /Users/macbookprom2/.gradle/caches/transforms-3/d3af869364f346543208745bc5aa521f/transformed/jetified-firebase-messaging-23.4.1/AndroidManifest.xml:38:17-92
+499                android:value="true" />
+499-->[com.google.firebase:firebase-messaging:23.4.1] /Users/macbookprom2/.gradle/caches/transforms-3/d3af869364f346543208745bc5aa521f/transformed/jetified-firebase-messaging-23.4.1/AndroidManifest.xml:39:17-37
+500        </receiver>
+501        <!--
+502             FirebaseMessagingService performs security checks at runtime,
+503             but set to not exported to explicitly avoid allowing another app to call it.
+504        -->
+505        <service
+505-->[com.google.firebase:firebase-messaging:23.4.1] /Users/macbookprom2/.gradle/caches/transforms-3/d3af869364f346543208745bc5aa521f/transformed/jetified-firebase-messaging-23.4.1/AndroidManifest.xml:46:9-53:19
+506            android:name="com.google.firebase.messaging.FirebaseMessagingService"
+506-->[com.google.firebase:firebase-messaging:23.4.1] /Users/macbookprom2/.gradle/caches/transforms-3/d3af869364f346543208745bc5aa521f/transformed/jetified-firebase-messaging-23.4.1/AndroidManifest.xml:47:13-82
+507            android:directBootAware="true"
+507-->[com.google.firebase:firebase-messaging:23.4.1] /Users/macbookprom2/.gradle/caches/transforms-3/d3af869364f346543208745bc5aa521f/transformed/jetified-firebase-messaging-23.4.1/AndroidManifest.xml:48:13-43
+508            android:exported="false" >
+508-->[com.google.firebase:firebase-messaging:23.4.1] /Users/macbookprom2/.gradle/caches/transforms-3/d3af869364f346543208745bc5aa521f/transformed/jetified-firebase-messaging-23.4.1/AndroidManifest.xml:49:13-37
+509            <intent-filter android:priority="-500" >
+509-->[com.google.firebase:firebase-messaging:23.4.1] /Users/macbookprom2/.gradle/caches/transforms-3/d3af869364f346543208745bc5aa521f/transformed/jetified-firebase-messaging-23.4.1/AndroidManifest.xml:50:13-52:29
+509-->[com.google.firebase:firebase-messaging:23.4.1] /Users/macbookprom2/.gradle/caches/transforms-3/d3af869364f346543208745bc5aa521f/transformed/jetified-firebase-messaging-23.4.1/AndroidManifest.xml:50:28-51
+510                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+510-->[com.google.firebase:firebase-messaging:23.4.1] /Users/macbookprom2/.gradle/caches/transforms-3/d3af869364f346543208745bc5aa521f/transformed/jetified-firebase-messaging-23.4.1/AndroidManifest.xml:51:17-78
+510-->[com.google.firebase:firebase-messaging:23.4.1] /Users/macbookprom2/.gradle/caches/transforms-3/d3af869364f346543208745bc5aa521f/transformed/jetified-firebase-messaging-23.4.1/AndroidManifest.xml:51:25-75
+511            </intent-filter>
+512        </service> <!-- Needs to be explicitly declared on P+ -->
+513        <uses-library
+513-->[com.google.android.gms:play-services-maps:18.2.0] /Users/macbookprom2/.gradle/caches/transforms-3/769d6602098a8fe053727a114f54ed3f/transformed/jetified-play-services-maps-18.2.0/AndroidManifest.xml:39:9-41:40
+514            android:name="org.apache.http.legacy"
+514-->[com.google.android.gms:play-services-maps:18.2.0] /Users/macbookprom2/.gradle/caches/transforms-3/769d6602098a8fe053727a114f54ed3f/transformed/jetified-play-services-maps-18.2.0/AndroidManifest.xml:40:13-50
+515            android:required="false" />
+515-->[com.google.android.gms:play-services-maps:18.2.0] /Users/macbookprom2/.gradle/caches/transforms-3/769d6602098a8fe053727a114f54ed3f/transformed/jetified-play-services-maps-18.2.0/AndroidManifest.xml:41:13-37
+516
+517        <activity
+517-->[com.google.android.gms:play-services-base:18.3.0] /Users/macbookprom2/.gradle/caches/transforms-3/a43691761a622881538cdada9269ee37/transformed/jetified-play-services-base-18.3.0/AndroidManifest.xml:20:9-22:45
+518            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+518-->[com.google.android.gms:play-services-base:18.3.0] /Users/macbookprom2/.gradle/caches/transforms-3/a43691761a622881538cdada9269ee37/transformed/jetified-play-services-base-18.3.0/AndroidManifest.xml:20:19-85
+519            android:exported="false"
+519-->[com.google.android.gms:play-services-base:18.3.0] /Users/macbookprom2/.gradle/caches/transforms-3/a43691761a622881538cdada9269ee37/transformed/jetified-play-services-base-18.3.0/AndroidManifest.xml:22:19-43
+520            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+520-->[com.google.android.gms:play-services-base:18.3.0] /Users/macbookprom2/.gradle/caches/transforms-3/a43691761a622881538cdada9269ee37/transformed/jetified-play-services-base-18.3.0/AndroidManifest.xml:21:19-78
+521
+522        <service
+522-->[com.google.firebase:firebase-sessions:1.2.2] /Users/macbookprom2/.gradle/caches/transforms-3/64f7d9b573a27599e15b70f9123c0ed3/transformed/jetified-firebase-sessions-1.2.2/AndroidManifest.xml:22:9-25:40
+523            android:name="com.google.firebase.sessions.SessionLifecycleService"
+523-->[com.google.firebase:firebase-sessions:1.2.2] /Users/macbookprom2/.gradle/caches/transforms-3/64f7d9b573a27599e15b70f9123c0ed3/transformed/jetified-firebase-sessions-1.2.2/AndroidManifest.xml:23:13-80
+524            android:enabled="true"
+524-->[com.google.firebase:firebase-sessions:1.2.2] /Users/macbookprom2/.gradle/caches/transforms-3/64f7d9b573a27599e15b70f9123c0ed3/transformed/jetified-firebase-sessions-1.2.2/AndroidManifest.xml:24:13-35
+525            android:exported="false" />
+525-->[com.google.firebase:firebase-sessions:1.2.2] /Users/macbookprom2/.gradle/caches/transforms-3/64f7d9b573a27599e15b70f9123c0ed3/transformed/jetified-firebase-sessions-1.2.2/AndroidManifest.xml:25:13-37
+526
+527        <provider
+527-->[com.google.firebase:firebase-common:20.4.3] /Users/macbookprom2/.gradle/caches/transforms-3/b76ef1c361189bfe324e7d729a5373dc/transformed/jetified-firebase-common-20.4.3/AndroidManifest.xml:23:9-28:39
+528            android:name="com.google.firebase.provider.FirebaseInitProvider"
+528-->[com.google.firebase:firebase-common:20.4.3] /Users/macbookprom2/.gradle/caches/transforms-3/b76ef1c361189bfe324e7d729a5373dc/transformed/jetified-firebase-common-20.4.3/AndroidManifest.xml:24:13-77
+529            android:authorities="com.gobabidrive.firebaseinitprovider"
+529-->[com.google.firebase:firebase-common:20.4.3] /Users/macbookprom2/.gradle/caches/transforms-3/b76ef1c361189bfe324e7d729a5373dc/transformed/jetified-firebase-common-20.4.3/AndroidManifest.xml:25:13-72
+530            android:directBootAware="true"
+530-->[com.google.firebase:firebase-common:20.4.3] /Users/macbookprom2/.gradle/caches/transforms-3/b76ef1c361189bfe324e7d729a5373dc/transformed/jetified-firebase-common-20.4.3/AndroidManifest.xml:26:13-43
+531            android:exported="false"
+531-->[com.google.firebase:firebase-common:20.4.3] /Users/macbookprom2/.gradle/caches/transforms-3/b76ef1c361189bfe324e7d729a5373dc/transformed/jetified-firebase-common-20.4.3/AndroidManifest.xml:27:13-37
+532            android:initOrder="100" />
+532-->[com.google.firebase:firebase-common:20.4.3] /Users/macbookprom2/.gradle/caches/transforms-3/b76ef1c361189bfe324e7d729a5373dc/transformed/jetified-firebase-common-20.4.3/AndroidManifest.xml:28:13-36
+533
+534        <service
+534-->[androidx.work:work-runtime:2.8.1] /Users/macbookprom2/.gradle/caches/transforms-3/14a1e67ad72a18043172c343daee2ab6/transformed/work-runtime-2.8.1/AndroidManifest.xml:39:9-45:35
+535            android:name="androidx.work.impl.background.systemalarm.SystemAlarmService"
+535-->[androidx.work:work-runtime:2.8.1] /Users/macbookprom2/.gradle/caches/transforms-3/14a1e67ad72a18043172c343daee2ab6/transformed/work-runtime-2.8.1/AndroidManifest.xml:40:13-88
+536            android:directBootAware="false"
+536-->[androidx.work:work-runtime:2.8.1] /Users/macbookprom2/.gradle/caches/transforms-3/14a1e67ad72a18043172c343daee2ab6/transformed/work-runtime-2.8.1/AndroidManifest.xml:41:13-44
+537            android:enabled="@bool/enable_system_alarm_service_default"
+537-->[androidx.work:work-runtime:2.8.1] /Users/macbookprom2/.gradle/caches/transforms-3/14a1e67ad72a18043172c343daee2ab6/transformed/work-runtime-2.8.1/AndroidManifest.xml:42:13-72
+538            android:exported="false" />
+538-->[androidx.work:work-runtime:2.8.1] /Users/macbookprom2/.gradle/caches/transforms-3/14a1e67ad72a18043172c343daee2ab6/transformed/work-runtime-2.8.1/AndroidManifest.xml:43:13-37
+539        <service
+539-->[androidx.work:work-runtime:2.8.1] /Users/macbookprom2/.gradle/caches/transforms-3/14a1e67ad72a18043172c343daee2ab6/transformed/work-runtime-2.8.1/AndroidManifest.xml:46:9-52:35
+540            android:name="androidx.work.impl.background.systemjob.SystemJobService"
+540-->[androidx.work:work-runtime:2.8.1] /Users/macbookprom2/.gradle/caches/transforms-3/14a1e67ad72a18043172c343daee2ab6/transformed/work-runtime-2.8.1/AndroidManifest.xml:47:13-84
+541            android:directBootAware="false"
+541-->[androidx.work:work-runtime:2.8.1] /Users/macbookprom2/.gradle/caches/transforms-3/14a1e67ad72a18043172c343daee2ab6/transformed/work-runtime-2.8.1/AndroidManifest.xml:48:13-44
+542            android:enabled="@bool/enable_system_job_service_default"
+542-->[androidx.work:work-runtime:2.8.1] /Users/macbookprom2/.gradle/caches/transforms-3/14a1e67ad72a18043172c343daee2ab6/transformed/work-runtime-2.8.1/AndroidManifest.xml:49:13-70
+543            android:exported="true"
+543-->[androidx.work:work-runtime:2.8.1] /Users/macbookprom2/.gradle/caches/transforms-3/14a1e67ad72a18043172c343daee2ab6/transformed/work-runtime-2.8.1/AndroidManifest.xml:50:13-36
+544            android:permission="android.permission.BIND_JOB_SERVICE" />
+544-->[androidx.work:work-runtime:2.8.1] /Users/macbookprom2/.gradle/caches/transforms-3/14a1e67ad72a18043172c343daee2ab6/transformed/work-runtime-2.8.1/AndroidManifest.xml:51:13-69
+545        <service
+545-->[androidx.work:work-runtime:2.8.1] /Users/macbookprom2/.gradle/caches/transforms-3/14a1e67ad72a18043172c343daee2ab6/transformed/work-runtime-2.8.1/AndroidManifest.xml:53:9-59:35
+546            android:name="androidx.work.impl.foreground.SystemForegroundService"
+546-->[androidx.work:work-runtime:2.8.1] /Users/macbookprom2/.gradle/caches/transforms-3/14a1e67ad72a18043172c343daee2ab6/transformed/work-runtime-2.8.1/AndroidManifest.xml:54:13-81
+547            android:directBootAware="false"
+547-->[androidx.work:work-runtime:2.8.1] /Users/macbookprom2/.gradle/caches/transforms-3/14a1e67ad72a18043172c343daee2ab6/transformed/work-runtime-2.8.1/AndroidManifest.xml:55:13-44
+548            android:enabled="@bool/enable_system_foreground_service_default"
+548-->[androidx.work:work-runtime:2.8.1] /Users/macbookprom2/.gradle/caches/transforms-3/14a1e67ad72a18043172c343daee2ab6/transformed/work-runtime-2.8.1/AndroidManifest.xml:56:13-77
+549            android:exported="false" />
+549-->[androidx.work:work-runtime:2.8.1] /Users/macbookprom2/.gradle/caches/transforms-3/14a1e67ad72a18043172c343daee2ab6/transformed/work-runtime-2.8.1/AndroidManifest.xml:57:13-37
+550
+551        <receiver
+551-->[androidx.work:work-runtime:2.8.1] /Users/macbookprom2/.gradle/caches/transforms-3/14a1e67ad72a18043172c343daee2ab6/transformed/work-runtime-2.8.1/AndroidManifest.xml:61:9-66:35
+552            android:name="androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver"
+552-->[androidx.work:work-runtime:2.8.1] /Users/macbookprom2/.gradle/caches/transforms-3/14a1e67ad72a18043172c343daee2ab6/transformed/work-runtime-2.8.1/AndroidManifest.xml:62:13-88
+553            android:directBootAware="false"
+553-->[androidx.work:work-runtime:2.8.1] /Users/macbookprom2/.gradle/caches/transforms-3/14a1e67ad72a18043172c343daee2ab6/transformed/work-runtime-2.8.1/AndroidManifest.xml:63:13-44
+554            android:enabled="true"
+554-->[androidx.work:work-runtime:2.8.1] /Users/macbookprom2/.gradle/caches/transforms-3/14a1e67ad72a18043172c343daee2ab6/transformed/work-runtime-2.8.1/AndroidManifest.xml:64:13-35
+555            android:exported="false" />
+555-->[androidx.work:work-runtime:2.8.1] /Users/macbookprom2/.gradle/caches/transforms-3/14a1e67ad72a18043172c343daee2ab6/transformed/work-runtime-2.8.1/AndroidManifest.xml:65:13-37
+556        <receiver
+556-->[androidx.work:work-runtime:2.8.1] /Users/macbookprom2/.gradle/caches/transforms-3/14a1e67ad72a18043172c343daee2ab6/transformed/work-runtime-2.8.1/AndroidManifest.xml:67:9-77:20
+557            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy"
+557-->[androidx.work:work-runtime:2.8.1] /Users/macbookprom2/.gradle/caches/transforms-3/14a1e67ad72a18043172c343daee2ab6/transformed/work-runtime-2.8.1/AndroidManifest.xml:68:13-106
+558            android:directBootAware="false"
+558-->[androidx.work:work-runtime:2.8.1] /Users/macbookprom2/.gradle/caches/transforms-3/14a1e67ad72a18043172c343daee2ab6/transformed/work-runtime-2.8.1/AndroidManifest.xml:69:13-44
+559            android:enabled="false"
+559-->[androidx.work:work-runtime:2.8.1] /Users/macbookprom2/.gradle/caches/transforms-3/14a1e67ad72a18043172c343daee2ab6/transformed/work-runtime-2.8.1/AndroidManifest.xml:70:13-36
+560            android:exported="false" >
+560-->[androidx.work:work-runtime:2.8.1] /Users/macbookprom2/.gradle/caches/transforms-3/14a1e67ad72a18043172c343daee2ab6/transformed/work-runtime-2.8.1/AndroidManifest.xml:71:13-37
+561            <intent-filter>
+561-->[androidx.work:work-runtime:2.8.1] /Users/macbookprom2/.gradle/caches/transforms-3/14a1e67ad72a18043172c343daee2ab6/transformed/work-runtime-2.8.1/AndroidManifest.xml:73:13-76:29
+562                <action android:name="android.intent.action.ACTION_POWER_CONNECTED" />
+562-->[androidx.work:work-runtime:2.8.1] /Users/macbookprom2/.gradle/caches/transforms-3/14a1e67ad72a18043172c343daee2ab6/transformed/work-runtime-2.8.1/AndroidManifest.xml:74:17-87
+562-->[androidx.work:work-runtime:2.8.1] /Users/macbookprom2/.gradle/caches/transforms-3/14a1e67ad72a18043172c343daee2ab6/transformed/work-runtime-2.8.1/AndroidManifest.xml:74:25-84
+563                <action android:name="android.intent.action.ACTION_POWER_DISCONNECTED" />
+563-->[androidx.work:work-runtime:2.8.1] /Users/macbookprom2/.gradle/caches/transforms-3/14a1e67ad72a18043172c343daee2ab6/transformed/work-runtime-2.8.1/AndroidManifest.xml:75:17-90
+563-->[androidx.work:work-runtime:2.8.1] /Users/macbookprom2/.gradle/caches/transforms-3/14a1e67ad72a18043172c343daee2ab6/transformed/work-runtime-2.8.1/AndroidManifest.xml:75:25-87
+564            </intent-filter>
+565        </receiver>
+566        <receiver
+566-->[androidx.work:work-runtime:2.8.1] /Users/macbookprom2/.gradle/caches/transforms-3/14a1e67ad72a18043172c343daee2ab6/transformed/work-runtime-2.8.1/AndroidManifest.xml:78:9-88:20
+567            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy"
+567-->[androidx.work:work-runtime:2.8.1] /Users/macbookprom2/.gradle/caches/transforms-3/14a1e67ad72a18043172c343daee2ab6/transformed/work-runtime-2.8.1/AndroidManifest.xml:79:13-104
+568            android:directBootAware="false"
+568-->[androidx.work:work-runtime:2.8.1] /Users/macbookprom2/.gradle/caches/transforms-3/14a1e67ad72a18043172c343daee2ab6/transformed/work-runtime-2.8.1/AndroidManifest.xml:80:13-44
+569            android:enabled="false"
+569-->[androidx.work:work-runtime:2.8.1] /Users/macbookprom2/.gradle/caches/transforms-3/14a1e67ad72a18043172c343daee2ab6/transformed/work-runtime-2.8.1/AndroidManifest.xml:81:13-36
+570            android:exported="false" >
+570-->[androidx.work:work-runtime:2.8.1] /Users/macbookprom2/.gradle/caches/transforms-3/14a1e67ad72a18043172c343daee2ab6/transformed/work-runtime-2.8.1/AndroidManifest.xml:82:13-37
+571            <intent-filter>
+571-->[androidx.work:work-runtime:2.8.1] /Users/macbookprom2/.gradle/caches/transforms-3/14a1e67ad72a18043172c343daee2ab6/transformed/work-runtime-2.8.1/AndroidManifest.xml:84:13-87:29
+572                <action android:name="android.intent.action.BATTERY_OKAY" />
+572-->[androidx.work:work-runtime:2.8.1] /Users/macbookprom2/.gradle/caches/transforms-3/14a1e67ad72a18043172c343daee2ab6/transformed/work-runtime-2.8.1/AndroidManifest.xml:85:17-77
+572-->[androidx.work:work-runtime:2.8.1] /Users/macbookprom2/.gradle/caches/transforms-3/14a1e67ad72a18043172c343daee2ab6/transformed/work-runtime-2.8.1/AndroidManifest.xml:85:25-74
+573                <action android:name="android.intent.action.BATTERY_LOW" />
+573-->[androidx.work:work-runtime:2.8.1] /Users/macbookprom2/.gradle/caches/transforms-3/14a1e67ad72a18043172c343daee2ab6/transformed/work-runtime-2.8.1/AndroidManifest.xml:86:17-76
+573-->[androidx.work:work-runtime:2.8.1] /Users/macbookprom2/.gradle/caches/transforms-3/14a1e67ad72a18043172c343daee2ab6/transformed/work-runtime-2.8.1/AndroidManifest.xml:86:25-73
+574            </intent-filter>
+575        </receiver>
+576        <receiver
+576-->[androidx.work:work-runtime:2.8.1] /Users/macbookprom2/.gradle/caches/transforms-3/14a1e67ad72a18043172c343daee2ab6/transformed/work-runtime-2.8.1/AndroidManifest.xml:89:9-99:20
+577            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy"
+577-->[androidx.work:work-runtime:2.8.1] /Users/macbookprom2/.gradle/caches/transforms-3/14a1e67ad72a18043172c343daee2ab6/transformed/work-runtime-2.8.1/AndroidManifest.xml:90:13-104
+578            android:directBootAware="false"
+578-->[androidx.work:work-runtime:2.8.1] /Users/macbookprom2/.gradle/caches/transforms-3/14a1e67ad72a18043172c343daee2ab6/transformed/work-runtime-2.8.1/AndroidManifest.xml:91:13-44
+579            android:enabled="false"
+579-->[androidx.work:work-runtime:2.8.1] /Users/macbookprom2/.gradle/caches/transforms-3/14a1e67ad72a18043172c343daee2ab6/transformed/work-runtime-2.8.1/AndroidManifest.xml:92:13-36
+580            android:exported="false" >
+580-->[androidx.work:work-runtime:2.8.1] /Users/macbookprom2/.gradle/caches/transforms-3/14a1e67ad72a18043172c343daee2ab6/transformed/work-runtime-2.8.1/AndroidManifest.xml:93:13-37
+581            <intent-filter>
+581-->[androidx.work:work-runtime:2.8.1] /Users/macbookprom2/.gradle/caches/transforms-3/14a1e67ad72a18043172c343daee2ab6/transformed/work-runtime-2.8.1/AndroidManifest.xml:95:13-98:29
+582                <action android:name="android.intent.action.DEVICE_STORAGE_LOW" />
+582-->[androidx.work:work-runtime:2.8.1] /Users/macbookprom2/.gradle/caches/transforms-3/14a1e67ad72a18043172c343daee2ab6/transformed/work-runtime-2.8.1/AndroidManifest.xml:96:17-83
+582-->[androidx.work:work-runtime:2.8.1] /Users/macbookprom2/.gradle/caches/transforms-3/14a1e67ad72a18043172c343daee2ab6/transformed/work-runtime-2.8.1/AndroidManifest.xml:96:25-80
+583                <action android:name="android.intent.action.DEVICE_STORAGE_OK" />
+583-->[androidx.work:work-runtime:2.8.1] /Users/macbookprom2/.gradle/caches/transforms-3/14a1e67ad72a18043172c343daee2ab6/transformed/work-runtime-2.8.1/AndroidManifest.xml:97:17-82
+583-->[androidx.work:work-runtime:2.8.1] /Users/macbookprom2/.gradle/caches/transforms-3/14a1e67ad72a18043172c343daee2ab6/transformed/work-runtime-2.8.1/AndroidManifest.xml:97:25-79
+584            </intent-filter>
+585        </receiver>
+586        <receiver
+586-->[androidx.work:work-runtime:2.8.1] /Users/macbookprom2/.gradle/caches/transforms-3/14a1e67ad72a18043172c343daee2ab6/transformed/work-runtime-2.8.1/AndroidManifest.xml:100:9-109:20
+587            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy"
+587-->[androidx.work:work-runtime:2.8.1] /Users/macbookprom2/.gradle/caches/transforms-3/14a1e67ad72a18043172c343daee2ab6/transformed/work-runtime-2.8.1/AndroidManifest.xml:101:13-103
+588            android:directBootAware="false"
+588-->[androidx.work:work-runtime:2.8.1] /Users/macbookprom2/.gradle/caches/transforms-3/14a1e67ad72a18043172c343daee2ab6/transformed/work-runtime-2.8.1/AndroidManifest.xml:102:13-44
+589            android:enabled="false"
+589-->[androidx.work:work-runtime:2.8.1] /Users/macbookprom2/.gradle/caches/transforms-3/14a1e67ad72a18043172c343daee2ab6/transformed/work-runtime-2.8.1/AndroidManifest.xml:103:13-36
+590            android:exported="false" >
+590-->[androidx.work:work-runtime:2.8.1] /Users/macbookprom2/.gradle/caches/transforms-3/14a1e67ad72a18043172c343daee2ab6/transformed/work-runtime-2.8.1/AndroidManifest.xml:104:13-37
+591            <intent-filter>
+591-->[androidx.work:work-runtime:2.8.1] /Users/macbookprom2/.gradle/caches/transforms-3/14a1e67ad72a18043172c343daee2ab6/transformed/work-runtime-2.8.1/AndroidManifest.xml:106:13-108:29
+592                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+592-->[androidx.work:work-runtime:2.8.1] /Users/macbookprom2/.gradle/caches/transforms-3/14a1e67ad72a18043172c343daee2ab6/transformed/work-runtime-2.8.1/AndroidManifest.xml:107:17-79
+592-->[androidx.work:work-runtime:2.8.1] /Users/macbookprom2/.gradle/caches/transforms-3/14a1e67ad72a18043172c343daee2ab6/transformed/work-runtime-2.8.1/AndroidManifest.xml:107:25-76
+593            </intent-filter>
+594        </receiver>
+595        <receiver
+595-->[androidx.work:work-runtime:2.8.1] /Users/macbookprom2/.gradle/caches/transforms-3/14a1e67ad72a18043172c343daee2ab6/transformed/work-runtime-2.8.1/AndroidManifest.xml:110:9-121:20
+596            android:name="androidx.work.impl.background.systemalarm.RescheduleReceiver"
+596-->[androidx.work:work-runtime:2.8.1] /Users/macbookprom2/.gradle/caches/transforms-3/14a1e67ad72a18043172c343daee2ab6/transformed/work-runtime-2.8.1/AndroidManifest.xml:111:13-88
+597            android:directBootAware="false"
+597-->[androidx.work:work-runtime:2.8.1] /Users/macbookprom2/.gradle/caches/transforms-3/14a1e67ad72a18043172c343daee2ab6/transformed/work-runtime-2.8.1/AndroidManifest.xml:112:13-44
+598            android:enabled="false"
+598-->[androidx.work:work-runtime:2.8.1] /Users/macbookprom2/.gradle/caches/transforms-3/14a1e67ad72a18043172c343daee2ab6/transformed/work-runtime-2.8.1/AndroidManifest.xml:113:13-36
+599            android:exported="false" >
+599-->[androidx.work:work-runtime:2.8.1] /Users/macbookprom2/.gradle/caches/transforms-3/14a1e67ad72a18043172c343daee2ab6/transformed/work-runtime-2.8.1/AndroidManifest.xml:114:13-37
+600            <intent-filter>
+600-->[androidx.work:work-runtime:2.8.1] /Users/macbookprom2/.gradle/caches/transforms-3/14a1e67ad72a18043172c343daee2ab6/transformed/work-runtime-2.8.1/AndroidManifest.xml:116:13-120:29
+601                <action android:name="android.intent.action.BOOT_COMPLETED" />
+601-->[:flutter_background_service_android] /Users/macbookprom2/Downloads/go_babi_ff_drive/build/flutter_background_service_android/intermediates/merged_manifest/debug/AndroidManifest.xml:29:17-79
+601-->[:flutter_background_service_android] /Users/macbookprom2/Downloads/go_babi_ff_drive/build/flutter_background_service_android/intermediates/merged_manifest/debug/AndroidManifest.xml:29:25-76
+602                <action android:name="android.intent.action.TIME_SET" />
+602-->[androidx.work:work-runtime:2.8.1] /Users/macbookprom2/.gradle/caches/transforms-3/14a1e67ad72a18043172c343daee2ab6/transformed/work-runtime-2.8.1/AndroidManifest.xml:118:17-73
+602-->[androidx.work:work-runtime:2.8.1] /Users/macbookprom2/.gradle/caches/transforms-3/14a1e67ad72a18043172c343daee2ab6/transformed/work-runtime-2.8.1/AndroidManifest.xml:118:25-70
+603                <action android:name="android.intent.action.TIMEZONE_CHANGED" />
+603-->[androidx.work:work-runtime:2.8.1] /Users/macbookprom2/.gradle/caches/transforms-3/14a1e67ad72a18043172c343daee2ab6/transformed/work-runtime-2.8.1/AndroidManifest.xml:119:17-81
+603-->[androidx.work:work-runtime:2.8.1] /Users/macbookprom2/.gradle/caches/transforms-3/14a1e67ad72a18043172c343daee2ab6/transformed/work-runtime-2.8.1/AndroidManifest.xml:119:25-78
+604            </intent-filter>
+605        </receiver>
+606        <receiver
+606-->[androidx.work:work-runtime:2.8.1] /Users/macbookprom2/.gradle/caches/transforms-3/14a1e67ad72a18043172c343daee2ab6/transformed/work-runtime-2.8.1/AndroidManifest.xml:122:9-131:20
+607            android:name="androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver"
+607-->[androidx.work:work-runtime:2.8.1] /Users/macbookprom2/.gradle/caches/transforms-3/14a1e67ad72a18043172c343daee2ab6/transformed/work-runtime-2.8.1/AndroidManifest.xml:123:13-99
+608            android:directBootAware="false"
+608-->[androidx.work:work-runtime:2.8.1] /Users/macbookprom2/.gradle/caches/transforms-3/14a1e67ad72a18043172c343daee2ab6/transformed/work-runtime-2.8.1/AndroidManifest.xml:124:13-44
+609            android:enabled="@bool/enable_system_alarm_service_default"
+609-->[androidx.work:work-runtime:2.8.1] /Users/macbookprom2/.gradle/caches/transforms-3/14a1e67ad72a18043172c343daee2ab6/transformed/work-runtime-2.8.1/AndroidManifest.xml:125:13-72
+610            android:exported="false" >
+610-->[androidx.work:work-runtime:2.8.1] /Users/macbookprom2/.gradle/caches/transforms-3/14a1e67ad72a18043172c343daee2ab6/transformed/work-runtime-2.8.1/AndroidManifest.xml:126:13-37
+611            <intent-filter>
+611-->[androidx.work:work-runtime:2.8.1] /Users/macbookprom2/.gradle/caches/transforms-3/14a1e67ad72a18043172c343daee2ab6/transformed/work-runtime-2.8.1/AndroidManifest.xml:128:13-130:29
+612                <action android:name="androidx.work.impl.background.systemalarm.UpdateProxies" />
+612-->[androidx.work:work-runtime:2.8.1] /Users/macbookprom2/.gradle/caches/transforms-3/14a1e67ad72a18043172c343daee2ab6/transformed/work-runtime-2.8.1/AndroidManifest.xml:129:17-98
+612-->[androidx.work:work-runtime:2.8.1] /Users/macbookprom2/.gradle/caches/transforms-3/14a1e67ad72a18043172c343daee2ab6/transformed/work-runtime-2.8.1/AndroidManifest.xml:129:25-95
+613            </intent-filter>
+614        </receiver>
+615        <receiver
+615-->[androidx.work:work-runtime:2.8.1] /Users/macbookprom2/.gradle/caches/transforms-3/14a1e67ad72a18043172c343daee2ab6/transformed/work-runtime-2.8.1/AndroidManifest.xml:132:9-142:20
+616            android:name="androidx.work.impl.diagnostics.DiagnosticsReceiver"
+616-->[androidx.work:work-runtime:2.8.1] /Users/macbookprom2/.gradle/caches/transforms-3/14a1e67ad72a18043172c343daee2ab6/transformed/work-runtime-2.8.1/AndroidManifest.xml:133:13-78
+617            android:directBootAware="false"
+617-->[androidx.work:work-runtime:2.8.1] /Users/macbookprom2/.gradle/caches/transforms-3/14a1e67ad72a18043172c343daee2ab6/transformed/work-runtime-2.8.1/AndroidManifest.xml:134:13-44
+618            android:enabled="true"
+618-->[androidx.work:work-runtime:2.8.1] /Users/macbookprom2/.gradle/caches/transforms-3/14a1e67ad72a18043172c343daee2ab6/transformed/work-runtime-2.8.1/AndroidManifest.xml:135:13-35
+619            android:exported="true"
+619-->[androidx.work:work-runtime:2.8.1] /Users/macbookprom2/.gradle/caches/transforms-3/14a1e67ad72a18043172c343daee2ab6/transformed/work-runtime-2.8.1/AndroidManifest.xml:136:13-36
+620            android:permission="android.permission.DUMP" >
+620-->[androidx.work:work-runtime:2.8.1] /Users/macbookprom2/.gradle/caches/transforms-3/14a1e67ad72a18043172c343daee2ab6/transformed/work-runtime-2.8.1/AndroidManifest.xml:137:13-57
+621            <intent-filter>
+621-->[androidx.work:work-runtime:2.8.1] /Users/macbookprom2/.gradle/caches/transforms-3/14a1e67ad72a18043172c343daee2ab6/transformed/work-runtime-2.8.1/AndroidManifest.xml:139:13-141:29
+622                <action android:name="androidx.work.diagnostics.REQUEST_DIAGNOSTICS" />
+622-->[androidx.work:work-runtime:2.8.1] /Users/macbookprom2/.gradle/caches/transforms-3/14a1e67ad72a18043172c343daee2ab6/transformed/work-runtime-2.8.1/AndroidManifest.xml:140:17-88
+622-->[androidx.work:work-runtime:2.8.1] /Users/macbookprom2/.gradle/caches/transforms-3/14a1e67ad72a18043172c343daee2ab6/transformed/work-runtime-2.8.1/AndroidManifest.xml:140:25-85
+623            </intent-filter>
+624        </receiver>
+625
+626        <meta-data
+626-->[com.google.android.gms:play-services-basement:18.3.0] /Users/macbookprom2/.gradle/caches/transforms-3/97ce32b2c9758d9c3a2b7bd3ce8aec2b/transformed/jetified-play-services-basement-18.3.0/AndroidManifest.xml:21:9-23:69
+627            android:name="com.google.android.gms.version"
+627-->[com.google.android.gms:play-services-basement:18.3.0] /Users/macbookprom2/.gradle/caches/transforms-3/97ce32b2c9758d9c3a2b7bd3ce8aec2b/transformed/jetified-play-services-basement-18.3.0/AndroidManifest.xml:22:13-58
+628            android:value="@integer/google_play_services_version" />
+628-->[com.google.android.gms:play-services-basement:18.3.0] /Users/macbookprom2/.gradle/caches/transforms-3/97ce32b2c9758d9c3a2b7bd3ce8aec2b/transformed/jetified-play-services-basement-18.3.0/AndroidManifest.xml:23:13-66
+629
+630        <receiver
+630-->[com.mapbox.common:common:23.8.0] /Users/macbookprom2/.gradle/caches/transforms-3/af66eb4245680e0971f88845c9d51804/transformed/jetified-common-23.8.0/AndroidManifest.xml:26:9-33:20
+631            android:name="com.mapbox.common.location.LocationUpdatesReceiver"
+631-->[com.mapbox.common:common:23.8.0] /Users/macbookprom2/.gradle/caches/transforms-3/af66eb4245680e0971f88845c9d51804/transformed/jetified-common-23.8.0/AndroidManifest.xml:27:13-78
+632            android:enabled="true"
+632-->[com.mapbox.common:common:23.8.0] /Users/macbookprom2/.gradle/caches/transforms-3/af66eb4245680e0971f88845c9d51804/transformed/jetified-common-23.8.0/AndroidManifest.xml:28:13-35
+633            android:exported="false" >
+633-->[com.mapbox.common:common:23.8.0] /Users/macbookprom2/.gradle/caches/transforms-3/af66eb4245680e0971f88845c9d51804/transformed/jetified-common-23.8.0/AndroidManifest.xml:29:13-37
+634            <intent-filter>
+634-->[com.mapbox.common:common:23.8.0] /Users/macbookprom2/.gradle/caches/transforms-3/af66eb4245680e0971f88845c9d51804/transformed/jetified-common-23.8.0/AndroidManifest.xml:30:13-32:29
+635                <action android:name="com.mapbox.common.location.LocationUpdatesReceiver.ACTION_PROCESS_LOCATION_UPDATES" />
+635-->[com.mapbox.common:common:23.8.0] /Users/macbookprom2/.gradle/caches/transforms-3/af66eb4245680e0971f88845c9d51804/transformed/jetified-common-23.8.0/AndroidManifest.xml:31:17-125
+635-->[com.mapbox.common:common:23.8.0] /Users/macbookprom2/.gradle/caches/transforms-3/af66eb4245680e0971f88845c9d51804/transformed/jetified-common-23.8.0/AndroidManifest.xml:31:25-122
+636            </intent-filter>
+637        </receiver>
+638
+639        <service
+639-->[com.mapbox.common:common:23.8.0] /Users/macbookprom2/.gradle/caches/transforms-3/af66eb4245680e0971f88845c9d51804/transformed/jetified-common-23.8.0/AndroidManifest.xml:35:9-37:40
+640            android:name="com.mapbox.common.LifecycleService"
+640-->[com.mapbox.common:common:23.8.0] /Users/macbookprom2/.gradle/caches/transforms-3/af66eb4245680e0971f88845c9d51804/transformed/jetified-common-23.8.0/AndroidManifest.xml:36:13-62
+641            android:exported="false" />
+641-->[com.mapbox.common:common:23.8.0] /Users/macbookprom2/.gradle/caches/transforms-3/af66eb4245680e0971f88845c9d51804/transformed/jetified-common-23.8.0/AndroidManifest.xml:37:13-37
+642
+643        <provider
+643-->[com.squareup.leakcanary:leakcanary-android-core:2.9.1] /Users/macbookprom2/.gradle/caches/transforms-3/02d5bf877e3418f34c5afd8896f6a879/transformed/jetified-leakcanary-android-core-2.9.1/AndroidManifest.xml:31:9-39:20
+644            android:name="leakcanary.internal.LeakCanaryFileProvider"
+644-->[com.squareup.leakcanary:leakcanary-android-core:2.9.1] /Users/macbookprom2/.gradle/caches/transforms-3/02d5bf877e3418f34c5afd8896f6a879/transformed/jetified-leakcanary-android-core-2.9.1/AndroidManifest.xml:32:13-70
+645            android:authorities="com.squareup.leakcanary.fileprovider.com.gobabidrive"
+645-->[com.squareup.leakcanary:leakcanary-android-core:2.9.1] /Users/macbookprom2/.gradle/caches/transforms-3/02d5bf877e3418f34c5afd8896f6a879/transformed/jetified-leakcanary-android-core-2.9.1/AndroidManifest.xml:33:13-88
+646            android:exported="false"
+646-->[com.squareup.leakcanary:leakcanary-android-core:2.9.1] /Users/macbookprom2/.gradle/caches/transforms-3/02d5bf877e3418f34c5afd8896f6a879/transformed/jetified-leakcanary-android-core-2.9.1/AndroidManifest.xml:34:13-37
+647            android:grantUriPermissions="true" >
+647-->[com.squareup.leakcanary:leakcanary-android-core:2.9.1] /Users/macbookprom2/.gradle/caches/transforms-3/02d5bf877e3418f34c5afd8896f6a879/transformed/jetified-leakcanary-android-core-2.9.1/AndroidManifest.xml:35:13-47
+648            <meta-data
+648-->[:image_picker_android] /Users/macbookprom2/Downloads/go_babi_ff_drive/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:15:13-17:75
+649                android:name="android.support.FILE_PROVIDER_PATHS"
+649-->[:image_picker_android] /Users/macbookprom2/Downloads/go_babi_ff_drive/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:16:17-67
+650                android:resource="@xml/leak_canary_file_paths" />
+650-->[:image_picker_android] /Users/macbookprom2/Downloads/go_babi_ff_drive/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:17:17-72
+651        </provider>
+652
+653        <activity
+653-->[com.squareup.leakcanary:leakcanary-android-core:2.9.1] /Users/macbookprom2/.gradle/caches/transforms-3/02d5bf877e3418f34c5afd8896f6a879/transformed/jetified-leakcanary-android-core-2.9.1/AndroidManifest.xml:41:9-72:20
+654            android:name="leakcanary.internal.activity.LeakActivity"
+654-->[com.squareup.leakcanary:leakcanary-android-core:2.9.1] /Users/macbookprom2/.gradle/caches/transforms-3/02d5bf877e3418f34c5afd8896f6a879/transformed/jetified-leakcanary-android-core-2.9.1/AndroidManifest.xml:42:13-69
+655            android:exported="true"
+655-->[com.squareup.leakcanary:leakcanary-android-core:2.9.1] /Users/macbookprom2/.gradle/caches/transforms-3/02d5bf877e3418f34c5afd8896f6a879/transformed/jetified-leakcanary-android-core-2.9.1/AndroidManifest.xml:43:13-36
+656            android:icon="@mipmap/leak_canary_icon"
+656-->[com.squareup.leakcanary:leakcanary-android-core:2.9.1] /Users/macbookprom2/.gradle/caches/transforms-3/02d5bf877e3418f34c5afd8896f6a879/transformed/jetified-leakcanary-android-core-2.9.1/AndroidManifest.xml:44:13-52
+657            android:label="@string/leak_canary_display_activity_label"
+657-->[com.squareup.leakcanary:leakcanary-android-core:2.9.1] /Users/macbookprom2/.gradle/caches/transforms-3/02d5bf877e3418f34c5afd8896f6a879/transformed/jetified-leakcanary-android-core-2.9.1/AndroidManifest.xml:45:13-71
+658            android:taskAffinity="com.squareup.leakcanary.com.gobabidrive"
+658-->[com.squareup.leakcanary:leakcanary-android-core:2.9.1] /Users/macbookprom2/.gradle/caches/transforms-3/02d5bf877e3418f34c5afd8896f6a879/transformed/jetified-leakcanary-android-core-2.9.1/AndroidManifest.xml:46:13-76
+659            android:theme="@style/leak_canary_LeakCanary.Base" >
+659-->[com.squareup.leakcanary:leakcanary-android-core:2.9.1] /Users/macbookprom2/.gradle/caches/transforms-3/02d5bf877e3418f34c5afd8896f6a879/transformed/jetified-leakcanary-android-core-2.9.1/AndroidManifest.xml:47:13-63
+660            <intent-filter android:label="@string/leak_canary_import_hprof_file" >
+660-->[com.squareup.leakcanary:leakcanary-android-core:2.9.1] /Users/macbookprom2/.gradle/caches/transforms-3/02d5bf877e3418f34c5afd8896f6a879/transformed/jetified-leakcanary-android-core-2.9.1/AndroidManifest.xml:48:13-71:29
+660-->[com.squareup.leakcanary:leakcanary-android-core:2.9.1] /Users/macbookprom2/.gradle/caches/transforms-3/02d5bf877e3418f34c5afd8896f6a879/transformed/jetified-leakcanary-android-core-2.9.1/AndroidManifest.xml:48:28-81
+661                <action android:name="android.intent.action.VIEW" />
+661-->/Users/macbookprom2/Downloads/go_babi_ff_drive/android/app/src/main/AndroidManifest.xml:63:17-69
+661-->/Users/macbookprom2/Downloads/go_babi_ff_drive/android/app/src/main/AndroidManifest.xml:63:25-66
+662
+663                <category android:name="android.intent.category.DEFAULT" />
+663-->/Users/macbookprom2/Downloads/go_babi_ff_drive/android/app/src/main/AndroidManifest.xml:64:17-76
+663-->/Users/macbookprom2/Downloads/go_babi_ff_drive/android/app/src/main/AndroidManifest.xml:64:27-73
+664                <category android:name="android.intent.category.BROWSABLE" />
+664-->/Users/macbookprom2/Downloads/go_babi_ff_drive/android/app/src/main/AndroidManifest.xml:65:17-78
+664-->/Users/macbookprom2/Downloads/go_babi_ff_drive/android/app/src/main/AndroidManifest.xml:65:27-75
+665
+666                <data android:scheme="file" />
+666-->/Users/macbookprom2/Downloads/go_babi_ff_drive/android/app/src/main/AndroidManifest.xml:66:17-85
+666-->/Users/macbookprom2/Downloads/go_babi_ff_drive/android/app/src/main/AndroidManifest.xml:66:23-51
+667                <data android:scheme="content" />
+667-->/Users/macbookprom2/Downloads/go_babi_ff_drive/android/app/src/main/AndroidManifest.xml:66:17-85
+667-->/Users/macbookprom2/Downloads/go_babi_ff_drive/android/app/src/main/AndroidManifest.xml:66:23-51
+668                <data android:mimeType="*/*" />
+668-->/Users/macbookprom2/Downloads/go_babi_ff_drive/android/app/src/main/AndroidManifest.xml:66:17-85
+669                <data android:host="*" />
+669-->/Users/macbookprom2/Downloads/go_babi_ff_drive/android/app/src/main/AndroidManifest.xml:66:17-85
+669-->/Users/macbookprom2/Downloads/go_babi_ff_drive/android/app/src/main/AndroidManifest.xml:66:52-82
+670                <data android:pathPattern=".*\\.hprof" />
+670-->/Users/macbookprom2/Downloads/go_babi_ff_drive/android/app/src/main/AndroidManifest.xml:66:17-85
+671                <data android:pathPattern=".*\\..*\\.hprof" />
+671-->/Users/macbookprom2/Downloads/go_babi_ff_drive/android/app/src/main/AndroidManifest.xml:66:17-85
+672                <data android:pathPattern=".*\\..*\\..*\\.hprof" />
+672-->/Users/macbookprom2/Downloads/go_babi_ff_drive/android/app/src/main/AndroidManifest.xml:66:17-85
+673                <data android:pathPattern=".*\\..*\\..*\\..*\\.hprof" />
+673-->/Users/macbookprom2/Downloads/go_babi_ff_drive/android/app/src/main/AndroidManifest.xml:66:17-85
+674                <data android:pathPattern=".*\\..*\\..*\\..*\\..*\\.hprof" />
+674-->/Users/macbookprom2/Downloads/go_babi_ff_drive/android/app/src/main/AndroidManifest.xml:66:17-85
+675                <data android:pathPattern=".*\\..*\\..*\\..*\\..*\\..*\\.hprof" />
+675-->/Users/macbookprom2/Downloads/go_babi_ff_drive/android/app/src/main/AndroidManifest.xml:66:17-85
+676                <data android:pathPattern=".*\\..*\\..*\\..*\\..*\\..*\\..*\\.hprof" />
+676-->/Users/macbookprom2/Downloads/go_babi_ff_drive/android/app/src/main/AndroidManifest.xml:66:17-85
+677                <!--
+678            Since hprof isn't a standard MIME type, we have to declare such patterns.
+679            Most file providers will generate URIs including their own package name,
+680            which contains `.` characters that must be explicitly escaped in pathPattern.
+681            @see https://stackoverflow.com/a/31028507/703646
+682                -->
+683            </intent-filter>
+684        </activity>
+685
+686        <activity-alias
+686-->[com.squareup.leakcanary:leakcanary-android-core:2.9.1] /Users/macbookprom2/.gradle/caches/transforms-3/02d5bf877e3418f34c5afd8896f6a879/transformed/jetified-leakcanary-android-core-2.9.1/AndroidManifest.xml:74:9-91:26
+687            android:name="leakcanary.internal.activity.LeakLauncherActivity"
+687-->[com.squareup.leakcanary:leakcanary-android-core:2.9.1] /Users/macbookprom2/.gradle/caches/transforms-3/02d5bf877e3418f34c5afd8896f6a879/transformed/jetified-leakcanary-android-core-2.9.1/AndroidManifest.xml:75:13-77
+688            android:banner="@drawable/leak_canary_tv_icon"
+688-->[com.squareup.leakcanary:leakcanary-android-core:2.9.1] /Users/macbookprom2/.gradle/caches/transforms-3/02d5bf877e3418f34c5afd8896f6a879/transformed/jetified-leakcanary-android-core-2.9.1/AndroidManifest.xml:76:13-59
+689            android:enabled="@bool/leak_canary_add_launcher_icon"
+689-->[com.squareup.leakcanary:leakcanary-android-core:2.9.1] /Users/macbookprom2/.gradle/caches/transforms-3/02d5bf877e3418f34c5afd8896f6a879/transformed/jetified-leakcanary-android-core-2.9.1/AndroidManifest.xml:77:13-66
+690            android:exported="true"
+690-->[com.squareup.leakcanary:leakcanary-android-core:2.9.1] /Users/macbookprom2/.gradle/caches/transforms-3/02d5bf877e3418f34c5afd8896f6a879/transformed/jetified-leakcanary-android-core-2.9.1/AndroidManifest.xml:78:13-36
+691            android:icon="@mipmap/leak_canary_icon"
+691-->[com.squareup.leakcanary:leakcanary-android-core:2.9.1] /Users/macbookprom2/.gradle/caches/transforms-3/02d5bf877e3418f34c5afd8896f6a879/transformed/jetified-leakcanary-android-core-2.9.1/AndroidManifest.xml:79:13-52
+692            android:label="@string/leak_canary_display_activity_label"
+692-->[com.squareup.leakcanary:leakcanary-android-core:2.9.1] /Users/macbookprom2/.gradle/caches/transforms-3/02d5bf877e3418f34c5afd8896f6a879/transformed/jetified-leakcanary-android-core-2.9.1/AndroidManifest.xml:80:13-71
+693            android:targetActivity="leakcanary.internal.activity.LeakActivity"
+693-->[com.squareup.leakcanary:leakcanary-android-core:2.9.1] /Users/macbookprom2/.gradle/caches/transforms-3/02d5bf877e3418f34c5afd8896f6a879/transformed/jetified-leakcanary-android-core-2.9.1/AndroidManifest.xml:81:13-79
+694            android:taskAffinity="com.squareup.leakcanary.com.gobabidrive"
+694-->[com.squareup.leakcanary:leakcanary-android-core:2.9.1] /Users/macbookprom2/.gradle/caches/transforms-3/02d5bf877e3418f34c5afd8896f6a879/transformed/jetified-leakcanary-android-core-2.9.1/AndroidManifest.xml:82:13-76
+695            android:theme="@style/leak_canary_LeakCanary.Base" >
+695-->[com.squareup.leakcanary:leakcanary-android-core:2.9.1] /Users/macbookprom2/.gradle/caches/transforms-3/02d5bf877e3418f34c5afd8896f6a879/transformed/jetified-leakcanary-android-core-2.9.1/AndroidManifest.xml:83:13-63
+696            <intent-filter>
+696-->[com.squareup.leakcanary:leakcanary-android-core:2.9.1] /Users/macbookprom2/.gradle/caches/transforms-3/02d5bf877e3418f34c5afd8896f6a879/transformed/jetified-leakcanary-android-core-2.9.1/AndroidManifest.xml:84:13-90:29
+697                <action android:name="android.intent.action.MAIN" />
+697-->/Users/macbookprom2/Downloads/go_babi_ff_drive/android/app/src/main/AndroidManifest.xml:57:17-68
+697-->/Users/macbookprom2/Downloads/go_babi_ff_drive/android/app/src/main/AndroidManifest.xml:57:25-66
+698
+699                <category android:name="android.intent.category.LAUNCHER" />
+699-->/Users/macbookprom2/Downloads/go_babi_ff_drive/android/app/src/main/AndroidManifest.xml:58:17-76
+699-->/Users/macbookprom2/Downloads/go_babi_ff_drive/android/app/src/main/AndroidManifest.xml:58:27-74
+700                <!-- Android TV launcher intent -->
+701                <category android:name="android.intent.category.LEANBACK_LAUNCHER" />
+701-->[com.squareup.leakcanary:leakcanary-android-core:2.9.1] /Users/macbookprom2/.gradle/caches/transforms-3/02d5bf877e3418f34c5afd8896f6a879/transformed/jetified-leakcanary-android-core-2.9.1/AndroidManifest.xml:89:17-86
+701-->[com.squareup.leakcanary:leakcanary-android-core:2.9.1] /Users/macbookprom2/.gradle/caches/transforms-3/02d5bf877e3418f34c5afd8896f6a879/transformed/jetified-leakcanary-android-core-2.9.1/AndroidManifest.xml:89:27-83
+702            </intent-filter>
+703        </activity-alias>
+704
+705        <activity
+705-->[com.squareup.leakcanary:leakcanary-android-core:2.9.1] /Users/macbookprom2/.gradle/caches/transforms-3/02d5bf877e3418f34c5afd8896f6a879/transformed/jetified-leakcanary-android-core-2.9.1/AndroidManifest.xml:93:9-99:68
+706            android:name="leakcanary.internal.RequestStoragePermissionActivity"
+706-->[com.squareup.leakcanary:leakcanary-android-core:2.9.1] /Users/macbookprom2/.gradle/caches/transforms-3/02d5bf877e3418f34c5afd8896f6a879/transformed/jetified-leakcanary-android-core-2.9.1/AndroidManifest.xml:94:13-80
+707            android:excludeFromRecents="true"
+707-->[com.squareup.leakcanary:leakcanary-android-core:2.9.1] /Users/macbookprom2/.gradle/caches/transforms-3/02d5bf877e3418f34c5afd8896f6a879/transformed/jetified-leakcanary-android-core-2.9.1/AndroidManifest.xml:95:13-46
+708            android:icon="@mipmap/leak_canary_icon"
+708-->[com.squareup.leakcanary:leakcanary-android-core:2.9.1] /Users/macbookprom2/.gradle/caches/transforms-3/02d5bf877e3418f34c5afd8896f6a879/transformed/jetified-leakcanary-android-core-2.9.1/AndroidManifest.xml:96:13-52
+709            android:label="@string/leak_canary_storage_permission_activity_label"
+709-->[com.squareup.leakcanary:leakcanary-android-core:2.9.1] /Users/macbookprom2/.gradle/caches/transforms-3/02d5bf877e3418f34c5afd8896f6a879/transformed/jetified-leakcanary-android-core-2.9.1/AndroidManifest.xml:97:13-82
+710            android:taskAffinity="com.squareup.leakcanary.com.gobabidrive"
+710-->[com.squareup.leakcanary:leakcanary-android-core:2.9.1] /Users/macbookprom2/.gradle/caches/transforms-3/02d5bf877e3418f34c5afd8896f6a879/transformed/jetified-leakcanary-android-core-2.9.1/AndroidManifest.xml:98:13-76
+711            android:theme="@style/leak_canary_Theme.Transparent" />
+711-->[com.squareup.leakcanary:leakcanary-android-core:2.9.1] /Users/macbookprom2/.gradle/caches/transforms-3/02d5bf877e3418f34c5afd8896f6a879/transformed/jetified-leakcanary-android-core-2.9.1/AndroidManifest.xml:99:13-65
+712
+713        <receiver android:name="leakcanary.internal.NotificationReceiver" />
+713-->[com.squareup.leakcanary:leakcanary-android-core:2.9.1] /Users/macbookprom2/.gradle/caches/transforms-3/02d5bf877e3418f34c5afd8896f6a879/transformed/jetified-leakcanary-android-core-2.9.1/AndroidManifest.xml:101:9-77
+713-->[com.squareup.leakcanary:leakcanary-android-core:2.9.1] /Users/macbookprom2/.gradle/caches/transforms-3/02d5bf877e3418f34c5afd8896f6a879/transformed/jetified-leakcanary-android-core-2.9.1/AndroidManifest.xml:101:19-74
+714
+715        <provider
+715-->[com.squareup.leakcanary:leakcanary-object-watcher-android:2.9.1] /Users/macbookprom2/.gradle/caches/transforms-3/a0eb25f6c5920ea15013bd26d3688139/transformed/jetified-leakcanary-object-watcher-android-2.9.1/AndroidManifest.xml:8:9-12:40
+716            android:name="leakcanary.internal.MainProcessAppWatcherInstaller"
+716-->[com.squareup.leakcanary:leakcanary-object-watcher-android:2.9.1] /Users/macbookprom2/.gradle/caches/transforms-3/a0eb25f6c5920ea15013bd26d3688139/transformed/jetified-leakcanary-object-watcher-android-2.9.1/AndroidManifest.xml:9:13-78
+717            android:authorities="com.gobabidrive.leakcanary-installer"
+717-->[com.squareup.leakcanary:leakcanary-object-watcher-android:2.9.1] /Users/macbookprom2/.gradle/caches/transforms-3/a0eb25f6c5920ea15013bd26d3688139/transformed/jetified-leakcanary-object-watcher-android-2.9.1/AndroidManifest.xml:10:13-72
+718            android:enabled="@bool/leak_canary_watcher_auto_install"
+718-->[com.squareup.leakcanary:leakcanary-object-watcher-android:2.9.1] /Users/macbookprom2/.gradle/caches/transforms-3/a0eb25f6c5920ea15013bd26d3688139/transformed/jetified-leakcanary-object-watcher-android-2.9.1/AndroidManifest.xml:11:13-69
+719            android:exported="false" />
+719-->[com.squareup.leakcanary:leakcanary-object-watcher-android:2.9.1] /Users/macbookprom2/.gradle/caches/transforms-3/a0eb25f6c5920ea15013bd26d3688139/transformed/jetified-leakcanary-object-watcher-android-2.9.1/AndroidManifest.xml:12:13-37
+720        <provider
+720-->[com.squareup.leakcanary:plumber-android:2.9.1] /Users/macbookprom2/.gradle/caches/transforms-3/c9ed089100fc6ba8000e4905306b0af6/transformed/jetified-plumber-android-2.9.1/AndroidManifest.xml:8:9-12:40
+721            android:name="leakcanary.internal.PlumberInstaller"
+721-->[com.squareup.leakcanary:plumber-android:2.9.1] /Users/macbookprom2/.gradle/caches/transforms-3/c9ed089100fc6ba8000e4905306b0af6/transformed/jetified-plumber-android-2.9.1/AndroidManifest.xml:9:13-64
+722            android:authorities="com.gobabidrive.plumber-installer"
+722-->[com.squareup.leakcanary:plumber-android:2.9.1] /Users/macbookprom2/.gradle/caches/transforms-3/c9ed089100fc6ba8000e4905306b0af6/transformed/jetified-plumber-android-2.9.1/AndroidManifest.xml:10:13-69
+723            android:enabled="@bool/leak_canary_plumber_auto_install"
+723-->[com.squareup.leakcanary:plumber-android:2.9.1] /Users/macbookprom2/.gradle/caches/transforms-3/c9ed089100fc6ba8000e4905306b0af6/transformed/jetified-plumber-android-2.9.1/AndroidManifest.xml:11:13-69
+724            android:exported="false" />
+724-->[com.squareup.leakcanary:plumber-android:2.9.1] /Users/macbookprom2/.gradle/caches/transforms-3/c9ed089100fc6ba8000e4905306b0af6/transformed/jetified-plumber-android-2.9.1/AndroidManifest.xml:12:13-37
+725        <provider
+725-->[com.squareup.picasso:picasso:2.71828] /Users/macbookprom2/.gradle/caches/transforms-3/bc347fc86fd91d27c6bca85c9f1a4d95/transformed/jetified-picasso-2.71828/AndroidManifest.xml:8:9-11:40
+726            android:name="com.squareup.picasso.PicassoProvider"
+726-->[com.squareup.picasso:picasso:2.71828] /Users/macbookprom2/.gradle/caches/transforms-3/bc347fc86fd91d27c6bca85c9f1a4d95/transformed/jetified-picasso-2.71828/AndroidManifest.xml:9:13-64
+727            android:authorities="com.gobabidrive.com.squareup.picasso"
+727-->[com.squareup.picasso:picasso:2.71828] /Users/macbookprom2/.gradle/caches/transforms-3/bc347fc86fd91d27c6bca85c9f1a4d95/transformed/jetified-picasso-2.71828/AndroidManifest.xml:10:13-72
+728            android:exported="false" />
+728-->[com.squareup.picasso:picasso:2.71828] /Users/macbookprom2/.gradle/caches/transforms-3/bc347fc86fd91d27c6bca85c9f1a4d95/transformed/jetified-picasso-2.71828/AndroidManifest.xml:11:13-37
+729
+730        <receiver
+730-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/macbookprom2/.gradle/caches/transforms-3/a3136382d4419f60d535b7fff4cd731c/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:34:9-52:20
+731            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+731-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/macbookprom2/.gradle/caches/transforms-3/a3136382d4419f60d535b7fff4cd731c/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:35:13-76
+732            android:directBootAware="false"
+732-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/macbookprom2/.gradle/caches/transforms-3/a3136382d4419f60d535b7fff4cd731c/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:36:13-44
+733            android:enabled="true"
+733-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/macbookprom2/.gradle/caches/transforms-3/a3136382d4419f60d535b7fff4cd731c/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:37:13-35
+734            android:exported="true"
+734-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/macbookprom2/.gradle/caches/transforms-3/a3136382d4419f60d535b7fff4cd731c/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:38:13-36
+735            android:permission="android.permission.DUMP" >
+735-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/macbookprom2/.gradle/caches/transforms-3/a3136382d4419f60d535b7fff4cd731c/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:39:13-57
+736            <intent-filter>
+736-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/macbookprom2/.gradle/caches/transforms-3/a3136382d4419f60d535b7fff4cd731c/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:40:13-42:29
+737                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+737-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/macbookprom2/.gradle/caches/transforms-3/a3136382d4419f60d535b7fff4cd731c/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:41:17-91
+737-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/macbookprom2/.gradle/caches/transforms-3/a3136382d4419f60d535b7fff4cd731c/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:41:25-88
+738            </intent-filter>
+739            <intent-filter>
+739-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/macbookprom2/.gradle/caches/transforms-3/a3136382d4419f60d535b7fff4cd731c/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:43:13-45:29
+740                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+740-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/macbookprom2/.gradle/caches/transforms-3/a3136382d4419f60d535b7fff4cd731c/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:44:17-85
+740-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/macbookprom2/.gradle/caches/transforms-3/a3136382d4419f60d535b7fff4cd731c/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:44:25-82
+741            </intent-filter>
+742            <intent-filter>
+742-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/macbookprom2/.gradle/caches/transforms-3/a3136382d4419f60d535b7fff4cd731c/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:46:13-48:29
+743                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+743-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/macbookprom2/.gradle/caches/transforms-3/a3136382d4419f60d535b7fff4cd731c/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:47:17-88
+743-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/macbookprom2/.gradle/caches/transforms-3/a3136382d4419f60d535b7fff4cd731c/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:47:25-85
+744            </intent-filter>
+745            <intent-filter>
+745-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/macbookprom2/.gradle/caches/transforms-3/a3136382d4419f60d535b7fff4cd731c/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:49:13-51:29
+746                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+746-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/macbookprom2/.gradle/caches/transforms-3/a3136382d4419f60d535b7fff4cd731c/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:50:17-95
+746-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/macbookprom2/.gradle/caches/transforms-3/a3136382d4419f60d535b7fff4cd731c/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:50:25-92
+747            </intent-filter>
+748        </receiver>
+749
+750        <service
+750-->[androidx.room:room-runtime:2.5.0] /Users/macbookprom2/.gradle/caches/transforms-3/cac367f3ab413ebffa1aaa08bed0dcb5/transformed/room-runtime-2.5.0/AndroidManifest.xml:24:9-28:63
+751            android:name="androidx.room.MultiInstanceInvalidationService"
+751-->[androidx.room:room-runtime:2.5.0] /Users/macbookprom2/.gradle/caches/transforms-3/cac367f3ab413ebffa1aaa08bed0dcb5/transformed/room-runtime-2.5.0/AndroidManifest.xml:25:13-74
+752            android:directBootAware="true"
+752-->[androidx.room:room-runtime:2.5.0] /Users/macbookprom2/.gradle/caches/transforms-3/cac367f3ab413ebffa1aaa08bed0dcb5/transformed/room-runtime-2.5.0/AndroidManifest.xml:26:13-43
+753            android:exported="false" />
+753-->[androidx.room:room-runtime:2.5.0] /Users/macbookprom2/.gradle/caches/transforms-3/cac367f3ab413ebffa1aaa08bed0dcb5/transformed/room-runtime-2.5.0/AndroidManifest.xml:27:13-37
+754        <service
+754-->[com.google.android.datatransport:transport-backend-cct:3.1.9] /Users/macbookprom2/.gradle/caches/transforms-3/3677f7f83c077fa0f7d717ccfc1af0e2/transformed/jetified-transport-backend-cct-3.1.9/AndroidManifest.xml:28:9-34:19
+755            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
+755-->[com.google.android.datatransport:transport-backend-cct:3.1.9] /Users/macbookprom2/.gradle/caches/transforms-3/3677f7f83c077fa0f7d717ccfc1af0e2/transformed/jetified-transport-backend-cct-3.1.9/AndroidManifest.xml:29:13-103
+756            android:exported="false" >
+756-->[com.google.android.datatransport:transport-backend-cct:3.1.9] /Users/macbookprom2/.gradle/caches/transforms-3/3677f7f83c077fa0f7d717ccfc1af0e2/transformed/jetified-transport-backend-cct-3.1.9/AndroidManifest.xml:30:13-37
+757            <meta-data
+757-->[com.google.android.datatransport:transport-backend-cct:3.1.9] /Users/macbookprom2/.gradle/caches/transforms-3/3677f7f83c077fa0f7d717ccfc1af0e2/transformed/jetified-transport-backend-cct-3.1.9/AndroidManifest.xml:31:13-33:39
+758                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
+758-->[com.google.android.datatransport:transport-backend-cct:3.1.9] /Users/macbookprom2/.gradle/caches/transforms-3/3677f7f83c077fa0f7d717ccfc1af0e2/transformed/jetified-transport-backend-cct-3.1.9/AndroidManifest.xml:32:17-94
+759                android:value="cct" />
+759-->[com.google.android.datatransport:transport-backend-cct:3.1.9] /Users/macbookprom2/.gradle/caches/transforms-3/3677f7f83c077fa0f7d717ccfc1af0e2/transformed/jetified-transport-backend-cct-3.1.9/AndroidManifest.xml:33:17-36
+760        </service>
+761        <service
+761-->[com.google.android.datatransport:transport-runtime:3.1.9] /Users/macbookprom2/.gradle/caches/transforms-3/40ab35ff5a0382c99acdc3643be72f5e/transformed/jetified-transport-runtime-3.1.9/AndroidManifest.xml:26:9-30:19
+762            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
+762-->[com.google.android.datatransport:transport-runtime:3.1.9] /Users/macbookprom2/.gradle/caches/transforms-3/40ab35ff5a0382c99acdc3643be72f5e/transformed/jetified-transport-runtime-3.1.9/AndroidManifest.xml:27:13-117
+763            android:exported="false"
+763-->[com.google.android.datatransport:transport-runtime:3.1.9] /Users/macbookprom2/.gradle/caches/transforms-3/40ab35ff5a0382c99acdc3643be72f5e/transformed/jetified-transport-runtime-3.1.9/AndroidManifest.xml:28:13-37
+764            android:permission="android.permission.BIND_JOB_SERVICE" >
+764-->[com.google.android.datatransport:transport-runtime:3.1.9] /Users/macbookprom2/.gradle/caches/transforms-3/40ab35ff5a0382c99acdc3643be72f5e/transformed/jetified-transport-runtime-3.1.9/AndroidManifest.xml:29:13-69
+765        </service>
+766
+767        <receiver
+767-->[com.google.android.datatransport:transport-runtime:3.1.9] /Users/macbookprom2/.gradle/caches/transforms-3/40ab35ff5a0382c99acdc3643be72f5e/transformed/jetified-transport-runtime-3.1.9/AndroidManifest.xml:32:9-34:40
+768            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
+768-->[com.google.android.datatransport:transport-runtime:3.1.9] /Users/macbookprom2/.gradle/caches/transforms-3/40ab35ff5a0382c99acdc3643be72f5e/transformed/jetified-transport-runtime-3.1.9/AndroidManifest.xml:33:13-132
+769            android:exported="false" />
+769-->[com.google.android.datatransport:transport-runtime:3.1.9] /Users/macbookprom2/.gradle/caches/transforms-3/40ab35ff5a0382c99acdc3643be72f5e/transformed/jetified-transport-runtime-3.1.9/AndroidManifest.xml:34:13-37
+770    </application>
+771
+772</manifest>

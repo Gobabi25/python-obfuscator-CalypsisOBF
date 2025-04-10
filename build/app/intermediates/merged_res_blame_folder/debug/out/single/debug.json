@@ -1,0 +1,66 @@
+[
+    {
+        "merged": "com.gobabidrive.app-merged_res-101:/mipmap-mdpi_ic_driver_white.png.flat",
+        "source": "com.gobabidrive.app-main-92:/mipmap-mdpi/ic_driver_white.png"
+    },
+    {
+        "merged": "com.gobabidrive.app-merged_res-101:/mipmap-xxhdpi_ic_driver_white.png.flat",
+        "source": "com.gobabidrive.app-main-92:/mipmap-xxhdpi/ic_driver_white.png"
+    },
+    {
+        "merged": "com.gobabidrive.app-merged_res-101:/mipmap-xhdpi_ic_driver_white.png.flat",
+        "source": "com.gobabidrive.app-main-92:/mipmap-xhdpi/ic_driver_white.png"
+    },
+    {
+        "merged": "com.gobabidrive.app-merged_res-101:/mipmap-xxxhdpi_ic_app_logo.png.flat",
+        "source": "com.gobabidrive.app-main-92:/mipmap-xxxhdpi/ic_app_logo.png"
+    },
+    {
+        "merged": "com.gobabidrive.app-merged_res-101:/mipmap-hdpi_ic_driver_white.png.flat",
+        "source": "com.gobabidrive.app-main-92:/mipmap-hdpi/ic_driver_white.png"
+    },
+    {
+        "merged": "com.gobabidrive.app-merged_res-101:/mipmap-hdpi_ic_launcher.png.flat",
+        "source": "com.gobabidrive.app-main-92:/mipmap-hdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.gobabidrive.app-merged_res-101:/drawable_launch_background.xml.flat",
+        "source": "com.gobabidrive.app-main-92:/drawable/launch_background.xml"
+    },
+    {
+        "merged": "com.gobabidrive.app-merged_res-101:/mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "com.gobabidrive.app-main-92:/mipmap-xhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.gobabidrive.app-merged_res-101:/mipmap-xxhdpi_ic_app_logo.png.flat",
+        "source": "com.gobabidrive.app-main-92:/mipmap-xxhdpi/ic_app_logo.png"
+    },
+    {
+        "merged": "com.gobabidrive.app-merged_res-101:/mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "com.gobabidrive.app-main-92:/mipmap-xxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.gobabidrive.app-merged_res-101:/mipmap-hdpi_ic_app_logo.png.flat",
+        "source": "com.gobabidrive.app-main-92:/mipmap-hdpi/ic_app_logo.png"
+    },
+    {
+        "merged": "com.gobabidrive.app-merged_res-101:/mipmap-mdpi_ic_launcher.png.flat",
+        "source": "com.gobabidrive.app-main-92:/mipmap-mdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.gobabidrive.app-merged_res-101:/mipmap-xhdpi_ic_app_logo.png.flat",
+        "source": "com.gobabidrive.app-main-92:/mipmap-xhdpi/ic_app_logo.png"
+    },
+    {
+        "merged": "com.gobabidrive.app-merged_res-101:/mipmap-xxxhdpi_ic_driver_white.png.flat",
+        "source": "com.gobabidrive.app-main-92:/mipmap-xxxhdpi/ic_driver_white.png"
+    },
+    {
+        "merged": "com.gobabidrive.app-merged_res-101:/mipmap-mdpi_ic_app_logo.png.flat",
+        "source": "com.gobabidrive.app-main-92:/mipmap-mdpi/ic_app_logo.png"
+    },
+    {
+        "merged": "com.gobabidrive.app-merged_res-101:/mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "com.gobabidrive.app-main-92:/mipmap-xxxhdpi/ic_launcher.png"
+    }
+]

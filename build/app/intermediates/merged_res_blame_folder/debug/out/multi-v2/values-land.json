@@ -1,0 +1,55 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.gobabidrive.app-mergeDebugResources-99:/values-land/values-land.xml",
+            "map": [
+                {
+                    "source": "/Users/macbookprom2/.gradle/caches/transforms-3/3e0e8e320b9d0ff3f80fe30d1862a97b/transformed/jetified-ui-dropin-2.16.0/res/values-land/values-land.xml",
+                    "from": {
+                        "startLines": "2,3",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,119",
+                        "endColumns": "63,63",
+                        "endOffsets": "114,178"
+                    },
+                    "to": {
+                        "startLines": "5,6",
+                        "startColumns": "4,4",
+                        "startOffsets": "264,328",
+                        "endColumns": "63,63",
+                        "endOffsets": "323,387"
+                    }
+                },
+                {
+                    "source": "/Users/macbookprom2/.gradle/caches/transforms-3/f8db2318789a60a48d8cbccb0655ec88/transformed/appcompat-1.7.0-alpha03/res/values-land/values-land.xml",
+                    "from": {
+                        "startLines": "2,3,4",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "55,125,196",
+                        "endColumns": "69,70,67",
+                        "endOffsets": "120,191,259"
+                    }
+                },
+                {
+                    "source": "/Users/macbookprom2/.gradle/caches/transforms-3/8709b127f244523cc112af00715d4b04/transformed/material-1.10.0/res/values-land/values-land.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,26,35,40",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,130,204,277,347,419,489,554,621,691,763,832,901,983,1073,1149,1217,1284,1362,1427,1494,1666,2235,2504",
+                        "endLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,25,34,39,42",
+                        "endColumns": "74,73,72,69,71,69,64,66,69,71,68,68,81,89,75,67,66,77,64,66,10,10,10,10",
+                        "endOffsets": "125,199,272,342,414,484,549,616,686,758,827,896,978,1068,1144,1212,1279,1357,1422,1489,1661,2230,2499,2727"
+                    },
+                    "to": {
+                        "startLines": "7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,31,40,45",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "392,467,541,614,684,756,826,891,958,1028,1100,1169,1238,1320,1410,1486,1554,1621,1699,1764,1831,2003,2572,2841",
+                        "endLines": "7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,30,39,44,47",
+                        "endColumns": "74,73,72,69,71,69,64,66,69,71,68,68,81,89,75,67,66,77,64,66,10,10,10,10",
+                        "endOffsets": "462,536,609,679,751,821,886,953,1023,1095,1164,1233,1315,1405,1481,1549,1616,1694,1759,1826,1998,2567,2836,3064"
+                    }
+                }
+            ]
+        }
+    ]
+}
