@@ -4,7 +4,7 @@
 ## Description
 A Python script obfuscation tool for educational and research purposes. CalypsisOBF helps protect Python code by applying various obfuscation techniques to make reverse engineering more difficult.
 
-## ⚠️ Disclaimer
+## Disclaimer
 **This tool is provided strictly for educational and research purposes. The author disclaims responsibility for misuse or for violating jurisdictional laws and regulations. Users must ensure all activities are legal under local rules.**
 
 ## VirusTotal Results
@@ -12,19 +12,20 @@ The following scans were performed to illustrate the obfuscator's effectiveness.
 
 ### **Before Obfuscation**
 - Higher detection rate from antivirus engines.
-- ![No obfuscation](no-obfuscation.png)
+-<img width="1741" height="947" alt="Screenshot 2025-10-07 152114" src="https://github.com/user-attachments/assets/9e3d5461-49dc-4c71-b98a-8a2de22a3717" />
 
 ### **After Obfuscation**
-- Significantly fewer detections, demonstrating improved code security.
-- ![With obfuscation](with-obfuscation.png)
+- No detections, demonstrating improved code security. (in exe format may still have detections)
+-<img width="1814" height="936" alt="Screenshot 2025-10-07 152258" src="https://github.com/user-attachments/assets/2e5925c6-327e-4109-9f00-eb472b4e2012" />
+
 
 ### Comparison Table
 | Scan Type           | Total Detections |
 |---------------------|------------------|
-| Without Obfuscation | [XX]             |
+| Without Obfuscation | 23               |
 | With Obfuscation    | 0                |
 
-**Note:** Compiling your script to an executable (.exe) can further reduce detections, but some antivirus may still flag it depending on their heuristics.
+**Note:** If your code is kept as a .py file and obfuscated with CalypsisOBF, it will typically show 0 detections on VirusTotal. However, if you compile your script into an executable (.exe) without obfuscation, it usually receives more detections. Compiling your code to an .exe after obfuscation will generally result in fewer detections than compiling it directly, but even obfuscated executables may still be flagged by some antivirus engines due to their heuristics.
 
 ## Obfuscation Layers
 CalypsisOBF applies multiple protection layers to secure your Python code:
