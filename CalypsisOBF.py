@@ -503,3 +503,4 @@ exec({code_variable_name})
     print(apply_text_gradient("Layers applied: AST Transform + Noise + Marshal + XOR + Hex + Base64 + Zlib + LZMA"))
     input(f"\n{apply_text_gradient('Press any key to exit...', reverse=True)}")
 
+
