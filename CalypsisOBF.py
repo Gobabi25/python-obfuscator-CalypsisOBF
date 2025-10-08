@@ -45,8 +45,8 @@ def get_gradient_color(progress):
         (180, 180, 180),  # Light-medium gray
         (155, 155, 155),  # Medium gray
         (130, 130, 130),  # Medium-dark gray
-        (105, 105, 105),  # Dark gray
-        (80, 80, 80),     # Darker gray (still readable)
+        (105, 105, 105),  # Dark gray 
+        (80, 80, 80),     # Darker gray
     ]
     
     index = progress * (len(gray_levels) - 1)
@@ -502,3 +502,4 @@ exec({code_variable_name})
     print(apply_text_gradient("Your code is now protected with multi-layer obfuscation", reverse=True))
     print(apply_text_gradient("Layers applied: AST Transform + Noise + Marshal + XOR + Hex + Base64 + Zlib + LZMA"))
     input(f"\n{apply_text_gradient('Press any key to exit...', reverse=True)}")
+
